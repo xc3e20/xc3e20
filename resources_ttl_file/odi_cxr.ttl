@@ -1,0 +1,4847 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix qb: <http://purl.org/linked-data/cube#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+# Dimensions
+
+<TimePeriod> rdfs:subClassOf qb:dimension ;
+	dc:title "6 April to 19 April 2020" .
+
+<PercentageofallrespondingbusinessesbrokendownbysizebandUK6Aprilto19April2020> rdfs:subClassOf qb:dimension ;
+	dc:title "Percentage of all responding businesses, broken down by size band, UK, 6 April to 19 April 2020" .
+
+<WorkforceSize> rdfs:subClassOf qb:dimension ;
+	dc:title "Workforce Size" .
+
+<ProportionofResponses> rdfs:subClassOf qb:dimension ;
+	dc:title "Proportion of Responses" .
+
+<Country> rdfs:subClassOf qb:dimension ;
+	dc:title "Country" .
+
+<PercentageofbusinesseseithercontinuingtotradeorwhohavetemporarilypausedorceasedtradingbrokendownbysizebandUK6Aprilto19April2020> rdfs:subClassOf qb:dimension ;
+	dc:title "Percentage of businesses either continuing to trade or who have temporarily paused or ceased trading, broken down by size band, UK, 6 April to 19 April 2020" .
+
+<PercentageofbusinesseseithercontinuingtotradeorwhohavetemporarilypausedorceasedtradingbrokendownbyindustryUK6Aprilto19April2020> rdfs:subClassOf qb:dimension ;
+	dc:title "Percentage of businesses either continuing to trade or who have temporarily paused or ceased trading, broken down by industry, UK, 6 April to 19 April 2020" .
+
+<PercentageofallrespondingbusinessesbrokendownbyindustryUK6Aprilto19April2020> rdfs:subClassOf qb:dimension ;
+	dc:title "Percentage of all responding businesses, broken down by industry, UK, 6 April to 19 April 2020" .
+
+<PercentageofallrespondingbusinessesbrokendownbycountryUK6Aprilto19April2020> rdfs:subClassOf qb:dimension ;
+	dc:title "Percentage of all responding businesses, broken down by country, UK, 6 April to 19 April 2020" .
+
+<NumberofResponses> rdfs:subClassOf qb:dimension ;
+	dc:title "Number of Responses" .
+
+<TotalNumberofSurveysSentOut> rdfs:subClassOf qb:dimension ;
+	dc:title "Total Number of Surveys Sent Out" .
+
+<PercentageofbusinesseseithercontinuingtotradeorwhohavetemporarilypausedorceasedtradingbrokendownbycountryUK6Aprilto19April2020> rdfs:subClassOf qb:dimension ;
+	dc:title "Percentage of businesses either continuing to trade or who have temporarily paused or ceased trading, broken down by country, UK, 6 April to 19 April 2020" .
+
+<Industry> rdfs:subClassOf qb:dimension ;
+	dc:title "Industry" .
+
+# Variables
+
+<Wehaventreceivedanythatweappliedfor_2> rdf:type <PercentageofbusinesseseithercontinuingtotradeorwhohavetemporarilypausedorceasedtradingbrokendownbysizebandUK6Aprilto19April2020> ;
+	dc:title "We haven't received any that we applied for" .
+
+<MiningAndQuarrying> rdf:type <Industry> ;
+	dc:title "Mining And Quarrying" .
+
+<WorkforceSizeMoreThan250_4> rdf:type <WorkforceSize> ;
+	dc:title "Workforce Size 250 +" .
+
+<WorkforceSizeLessThan250_3> rdf:type <ProportionofResponses> ;
+	dc:title "Workforce Size < 250" .
+
+<CoronavirusJobRetentionScheme_2> rdf:type <PercentageofbusinesseseithercontinuingtotradeorwhohavetemporarilypausedorceasedtradingbrokendownbysizebandUK6Aprilto19April2020> ;
+	dc:title "Coronavirus Job Retention Scheme" .
+
+<Continuingtotrade_2> rdf:type <PercentageofallrespondingbusinessesbrokendownbysizebandUK6Aprilto19April2020> ;
+	dc:title "Continuing to trade" .
+
+<WorkforceSize0Between99_2> rdf:type <NumberofResponses> ;
+	dc:title "Workforce Size 0 - 99" .
+
+<Accreditedfinanceagreements_3> rdf:type <PercentageofbusinesseseithercontinuingtotradeorwhohavetemporarilypausedorceasedtradingbrokendownbycountryUK6Aprilto19April2020> ;
+	dc:title "Accredited finance agreements" .
+
+<WorkforceSize100Between249_3> rdf:type <ProportionofResponses> ;
+	dc:title "Workforce Size 100 - 249" .
+
+<WorkforceSizeLessThan250_2> rdf:type <NumberofResponses> ;
+	dc:title "Workforce Size < 250" .
+
+<Wehavenotappliedforanyoftheseinitiatives_2> rdf:type <PercentageofbusinesseseithercontinuingtotradeorwhohavetemporarilypausedorceasedtradingbrokendownbysizebandUK6Aprilto19April2020> ;
+	dc:title "We have not applied for any of these initiatives" .
+
+<Hastemporarilyclosedortemporarilypausedtrading_3> rdf:type <PercentageofallrespondingbusinessesbrokendownbycountryUK6Aprilto19April2020> ;
+	dc:title "Has temporarily closed or temporarily paused trading" .
+
+<Businessratesholiday_1> rdf:type <PercentageofbusinesseseithercontinuingtotradeorwhohavetemporarilypausedorceasedtradingbrokendownbyindustryUK6Aprilto19April2020> ;
+	dc:title "Business rates holiday" .
+
+<WorkforceSizeLessThan250_1> rdf:type <TotalNumberofSurveysSentOut> ;
+	dc:title "Workforce Size < 250" .
+
+<CoronavirusJobRetentionScheme_1> rdf:type <PercentageofbusinesseseithercontinuingtotradeorwhohavetemporarilypausedorceasedtradingbrokendownbyindustryUK6Aprilto19April2020> ;
+	dc:title "Coronavirus Job Retention Scheme" .
+
+<TP06to19April2020_1> rdf:type <TimePeriod> ;
+	dc:title "6 April to 19 April 2020" .
+
+<Manufacturing> rdf:type <Industry> ;
+	dc:title "Manufacturing" .
+
+<AllSizeBands_2> rdf:type <NumberofResponses> ;
+	dc:title "All Size Bands" .
+
+<HMRCTimeToPayscheme_2> rdf:type <PercentageofbusinesseseithercontinuingtotradeorwhohavetemporarilypausedorceasedtradingbrokendownbysizebandUK6Aprilto19April2020> ;
+	dc:title "HMRC Time To Pay scheme" .
+
+<Haspermanentlyceasedtrading_1> rdf:type <PercentageofallrespondingbusinessesbrokendownbyindustryUK6Aprilto19April2020> ;
+	dc:title "Has permanently ceased trading **" .
+
+<TP06to19April2020_1> rdf:type <TimePeriod> ;
+	dc:title "6 April to 19 April 2020" .
+
+<TP06to19April2020_1> rdf:type <TimePeriod> ;
+	dc:title "6 April to 19 April 2020" .
+
+<TransportationAndStorage> rdf:type <Industry> ;
+	dc:title "Transportation And Storage" .
+
+<GovernmentBetweenfundedsmallbusinessgrantorloanschemes_3> rdf:type <PercentageofbusinesseseithercontinuingtotradeorwhohavetemporarilypausedorceasedtradingbrokendownbycountryUK6Aprilto19April2020> ;
+	dc:title "Government-funded small business grant or loan schemes" .
+
+<Continuingtotrade_3> rdf:type <PercentageofallrespondingbusinessesbrokendownbycountryUK6Aprilto19April2020> ;
+	dc:title "Continuing to trade" .
+
+<ProfessionalScientificAndTechnicalActivities> rdf:type <Industry> ;
+	dc:title "Professional, Scientific And Technical Activities" .
+
+<InformationAndCommunication> rdf:type <Industry> ;
+	dc:title "Information And Communication" .
+
+<WorkforceSizeMoreThan250_1> rdf:type <TotalNumberofSurveysSentOut> ;
+	dc:title "Workforce Size 250 +" .
+
+<HumanHealthAndSocialWorkActivities> rdf:type <Industry> ;
+	dc:title "Human Health And Social Work Activities" .
+
+<Haspermanentlyceasedtrading_3> rdf:type <PercentageofallrespondingbusinessesbrokendownbycountryUK6Aprilto19April2020> ;
+	dc:title "Has permanently ceased trading **" .
+
+<OtherServiceActivities> rdf:type <Industry> ;
+	dc:title "Other Service Activities" .
+
+<HMRCTimeToPayscheme_3> rdf:type <PercentageofbusinesseseithercontinuingtotradeorwhohavetemporarilypausedorceasedtradingbrokendownbycountryUK6Aprilto19April2020> ;
+	dc:title "HMRC Time To Pay scheme" .
+
+<Businessratesholiday_3> rdf:type <PercentageofbusinesseseithercontinuingtotradeorwhohavetemporarilypausedorceasedtradingbrokendownbycountryUK6Aprilto19April2020> ;
+	dc:title "Business rates holiday" .
+
+<RealEstateActivities> rdf:type <Industry> ;
+	dc:title "Real Estate Activities" .
+
+<WorkforceSizeMoreThan250_2> rdf:type <NumberofResponses> ;
+	dc:title "Workforce Size 250 +" .
+
+<CoronavirusJobRetentionScheme_3> rdf:type <PercentageofbusinesseseithercontinuingtotradeorwhohavetemporarilypausedorceasedtradingbrokendownbycountryUK6Aprilto19April2020> ;
+	dc:title "Coronavirus Job Retention Scheme" .
+
+<WorkforceSizeLessThan250_4> rdf:type <WorkforceSize> ;
+	dc:title "Workforce Size < 250" .
+
+<AllIndustries> rdf:type <Industry> ;
+	dc:title "All Industries" .
+
+<TP06to19April2020_1> rdf:type <TimePeriod> ;
+	dc:title "6 April to 19 April 2020" .
+
+<TP06to19April2020_1> rdf:type <TimePeriod> ;
+	dc:title "6 April to 19 April 2020" .
+
+<Haspermanentlyceasedtrading_2> rdf:type <PercentageofallrespondingbusinessesbrokendownbysizebandUK6Aprilto19April2020> ;
+	dc:title "Has permanently ceased trading **" .
+
+<WaterSupplySewerageWasteManagementAndRemediationActivities> rdf:type <Industry> ;
+	dc:title "Water Supply, Sewerage, Waste Management And Remediation Activities" .
+
+<HMRCTimeToPayscheme_1> rdf:type <PercentageofbusinesseseithercontinuingtotradeorwhohavetemporarilypausedorceasedtradingbrokendownbyindustryUK6Aprilto19April2020> ;
+	dc:title "HMRC Time To Pay scheme" .
+
+<AdministrativeAndSupportServiceActivities> rdf:type <Industry> ;
+	dc:title "Administrative And Support Service Activities" .
+
+<Businessratesholiday_2> rdf:type <PercentageofbusinesseseithercontinuingtotradeorwhohavetemporarilypausedorceasedtradingbrokendownbysizebandUK6Aprilto19April2020> ;
+	dc:title "Business rates holiday" .
+
+<DeferringVATpayments_2> rdf:type <PercentageofbusinesseseithercontinuingtotradeorwhohavetemporarilypausedorceasedtradingbrokendownbysizebandUK6Aprilto19April2020> ;
+	dc:title "Deferring VAT payments" .
+
+<GovernmentBetweenfundedsmallbusinessgrantorloanschemes_2> rdf:type <PercentageofbusinesseseithercontinuingtotradeorwhohavetemporarilypausedorceasedtradingbrokendownbysizebandUK6Aprilto19April2020> ;
+	dc:title "Government-funded small business grant or loan schemes" .
+
+<AllSizeBands_3> rdf:type <ProportionofResponses> ;
+	dc:title "All Size Bands" .
+
+<Noneoftheabove_1> rdf:type <PercentageofbusinesseseithercontinuingtotradeorwhohavetemporarilypausedorceasedtradingbrokendownbyindustryUK6Aprilto19April2020> ;
+	dc:title "None of the above" .
+
+<TP06to19April2020_1> rdf:type <TimePeriod> ;
+	dc:title "6 April to 19 April 2020" .
+
+<Wehavenotappliedforanyoftheseinitiatives_1> rdf:type <PercentageofbusinesseseithercontinuingtotradeorwhohavetemporarilypausedorceasedtradingbrokendownbyindustryUK6Aprilto19April2020> ;
+	dc:title "We have not applied for any of these initiatives" .
+
+<Construction> rdf:type <Industry> ;
+	dc:title "Construction" .
+
+<Hastemporarilyclosedortemporarilypausedtrading_2> rdf:type <PercentageofallrespondingbusinessesbrokendownbysizebandUK6Aprilto19April2020> ;
+	dc:title "Has temporarily closed or temporarily paused trading" .
+
+<TP06to19April2020_1> rdf:type <TimePeriod> ;
+	dc:title "6 April to 19 April 2020" .
+
+<WorkforceSize0Between99_3> rdf:type <ProportionofResponses> ;
+	dc:title "Workforce Size 0 - 99" .
+
+<Wehavenotappliedforanyoftheseinitiatives_3> rdf:type <PercentageofbusinesseseithercontinuingtotradeorwhohavetemporarilypausedorceasedtradingbrokendownbycountryUK6Aprilto19April2020> ;
+	dc:title "We have not applied for any of these initiatives" .
+
+<Education> rdf:type <Industry> ;
+	dc:title "Education" .
+
+<AllSizeBands_4> rdf:type <WorkforceSize> ;
+	dc:title "All Size Bands" .
+
+<TP06to19April2020_1> rdf:type <TimePeriod> ;
+	dc:title "6 April to 19 April 2020" .
+
+<Accreditedfinanceagreements_2> rdf:type <PercentageofbusinesseseithercontinuingtotradeorwhohavetemporarilypausedorceasedtradingbrokendownbysizebandUK6Aprilto19April2020> ;
+	dc:title "Accredited finance agreements" .
+
+<WorkforceSizeMoreThan250_3> rdf:type <ProportionofResponses> ;
+	dc:title "Workforce Size 250 +" .
+
+<ArtsEntertainmentAndRecreation> rdf:type <Industry> ;
+	dc:title "Arts, Entertainment And Recreation" .
+
+<England> rdf:type <Country> ;
+	dc:title "England" .
+
+<TP06to19April2020_1> rdf:type <TimePeriod> ;
+	dc:title "6 April to 19 April 2020" .
+
+<DeferringVATpayments_1> rdf:type <PercentageofbusinesseseithercontinuingtotradeorwhohavetemporarilypausedorceasedtradingbrokendownbyindustryUK6Aprilto19April2020> ;
+	dc:title "Deferring VAT payments" .
+
+<DeferringVATpayments_3> rdf:type <PercentageofbusinesseseithercontinuingtotradeorwhohavetemporarilypausedorceasedtradingbrokendownbycountryUK6Aprilto19April2020> ;
+	dc:title "Deferring VAT payments" .
+
+<Hastemporarilyclosedortemporarilypausedtrading_1> rdf:type <PercentageofallrespondingbusinessesbrokendownbyindustryUK6Aprilto19April2020> ;
+	dc:title "Has temporarily closed or temporarily paused trading" .
+
+<UK> rdf:type <Country> ;
+	dc:title "UK" .
+
+<Continuingtotrade_1> rdf:type <PercentageofallrespondingbusinessesbrokendownbyindustryUK6Aprilto19April2020> ;
+	dc:title "Continuing to trade" .
+
+<WorkforceSize100Between249_1> rdf:type <TotalNumberofSurveysSentOut> ;
+	dc:title "Workforce Size 100 - 249" .
+
+<Wehaventreceivedanythatweappliedfor_1> rdf:type <PercentageofbusinesseseithercontinuingtotradeorwhohavetemporarilypausedorceasedtradingbrokendownbyindustryUK6Aprilto19April2020> ;
+	dc:title "We haven't received any that we applied for" .
+
+<GovernmentBetweenfundedsmallbusinessgrantorloanschemes_1> rdf:type <PercentageofbusinesseseithercontinuingtotradeorwhohavetemporarilypausedorceasedtradingbrokendownbyindustryUK6Aprilto19April2020> ;
+	dc:title "Government-funded small business grant or loan schemes" .
+
+<WholesaleAndRetailTrade;RepairOfMotorVehiclesAndMotorcycles> rdf:type <Industry> ;
+	dc:title "Wholesale And Retail Trade; Repair Of Motor Vehicles And Motorcycles" .
+
+<Wales> rdf:type <Country> ;
+	dc:title "Wales" .
+
+<NorthernIreland> rdf:type <Country> ;
+	dc:title "Northern Ireland" .
+
+<Noneoftheabove_2> rdf:type <PercentageofbusinesseseithercontinuingtotradeorwhohavetemporarilypausedorceasedtradingbrokendownbysizebandUK6Aprilto19April2020> ;
+	dc:title "None of the above" .
+
+<WorkforceSize0Between99_1> rdf:type <TotalNumberofSurveysSentOut> ;
+	dc:title "Workforce Size 0 - 99" .
+
+<TP06to19April2020_1> rdf:type <TimePeriod> ;
+	dc:title "6 April to 19 April 2020" .
+
+<AccommodationAndFoodServiceActivities> rdf:type <Industry> ;
+	dc:title "Accommodation And Food Service Activities" .
+
+<Accreditedfinanceagreements_1> rdf:type <PercentageofbusinesseseithercontinuingtotradeorwhohavetemporarilypausedorceasedtradingbrokendownbyindustryUK6Aprilto19April2020> ;
+	dc:title "Accredited finance agreements" .
+
+<WorkforceSize100Between249_2> rdf:type <NumberofResponses> ;
+	dc:title "Workforce Size 100 - 249" .
+
+<AllSizeBands_1> rdf:type <TotalNumberofSurveysSentOut> ;
+	dc:title "All Size Bands" .
+
+<Scotland> rdf:type <Country> ;
+	dc:title "Scotland" .
+
+# Dataset ds0
+
+<ds0> rdf:type qb:DataSet ;
+	dc:title "Sample for the BICS survey broken down by industry" ;
+	qb:dataSet <ds0_0_0> ;
+	qb:dataSet <ds0_0_1> ;
+	qb:dataSet <ds0_0_2> ;
+	qb:dataSet <ds0_1_0> ;
+	qb:dataSet <ds0_1_1> ;
+	qb:dataSet <ds0_1_2> ;
+	qb:dataSet <ds0_2_0> ;
+	qb:dataSet <ds0_2_1> ;
+	qb:dataSet <ds0_2_2> ;
+	qb:dataSet <ds0_3_0> ;
+	qb:dataSet <ds0_3_1> ;
+	qb:dataSet <ds0_3_2> ;
+	qb:dataSet <ds0_4_0> ;
+	qb:dataSet <ds0_4_1> ;
+	qb:dataSet <ds0_4_2> ;
+	qb:dataSet <ds0_5_0> ;
+	qb:dataSet <ds0_5_1> ;
+	qb:dataSet <ds0_5_2> ;
+	qb:dataSet <ds0_6_0> ;
+	qb:dataSet <ds0_6_1> ;
+	qb:dataSet <ds0_6_2> ;
+	qb:dataSet <ds0_7_0> ;
+	qb:dataSet <ds0_7_1> ;
+	qb:dataSet <ds0_7_2> ;
+	qb:dataSet <ds0_8_0> ;
+	qb:dataSet <ds0_8_1> ;
+	qb:dataSet <ds0_8_2> ;
+	qb:dataSet <ds0_9_0> ;
+	qb:dataSet <ds0_9_1> ;
+	qb:dataSet <ds0_9_2> ;
+	qb:dataSet <ds0_10_0> ;
+	qb:dataSet <ds0_10_1> ;
+	qb:dataSet <ds0_10_2> ;
+	qb:dataSet <ds0_11_0> ;
+	qb:dataSet <ds0_11_1> ;
+	qb:dataSet <ds0_11_2> ;
+	qb:dataSet <ds0_12_0> ;
+	qb:dataSet <ds0_12_1> ;
+	qb:dataSet <ds0_12_2> ;
+	qb:dataSet <ds0_13_0> ;
+	qb:dataSet <ds0_13_1> ;
+	qb:dataSet <ds0_13_2> ;
+	qb:dataSet <ds0_14_0> ;
+	qb:dataSet <ds0_14_1> ;
+	qb:dataSet <ds0_14_2> ;
+	qb:dataSet <ds0_15_0> ;
+	qb:dataSet <ds0_15_1> ;
+	qb:dataSet <ds0_15_2> .
+
+# Dataset ds0's data points
+
+<ds0_0_0> rdf:type qb:Observation ;
+	rdf:value 15.0 ;
+	qb:observation <ds0> ;
+	qb:dimension <MiningAndQuarrying> ;
+	qb:dimension <WorkforceSizeLessThan250_1> .
+
+<ds0_0_1> rdf:type qb:Observation ;
+	rdf:value 13.0 ;
+	qb:observation <ds0> ;
+	qb:dimension <MiningAndQuarrying> ;
+	qb:dimension <WorkforceSizeMoreThan250_1> .
+
+<ds0_0_2> rdf:type qb:Observation ;
+	rdf:value 28.0 ;
+	qb:observation <ds0> ;
+	qb:dimension <MiningAndQuarrying> ;
+	qb:dimension <AllSizeBands_1> .
+
+<ds0_1_0> rdf:type qb:Observation ;
+	rdf:value 1785.0 ;
+	qb:observation <ds0> ;
+	qb:dimension <Manufacturing> ;
+	qb:dimension <WorkforceSizeLessThan250_1> .
+
+<ds0_1_1> rdf:type qb:Observation ;
+	rdf:value 1370.0 ;
+	qb:observation <ds0> ;
+	qb:dimension <Manufacturing> ;
+	qb:dimension <WorkforceSizeMoreThan250_1> .
+
+<ds0_1_2> rdf:type qb:Observation ;
+	rdf:value 3155.0 ;
+	qb:observation <ds0> ;
+	qb:dimension <Manufacturing> ;
+	qb:dimension <AllSizeBands_1> .
+
+<ds0_2_0> rdf:type qb:Observation ;
+	rdf:value 130.0 ;
+	qb:observation <ds0> ;
+	qb:dimension <WaterSupplySewerageWasteManagementAndRemediationActivities> ;
+	qb:dimension <WorkforceSizeLessThan250_1> .
+
+<ds0_2_1> rdf:type qb:Observation ;
+	rdf:value 71.0 ;
+	qb:observation <ds0> ;
+	qb:dimension <WaterSupplySewerageWasteManagementAndRemediationActivities> ;
+	qb:dimension <WorkforceSizeMoreThan250_1> .
+
+<ds0_2_2> rdf:type qb:Observation ;
+	rdf:value 201.0 ;
+	qb:observation <ds0> ;
+	qb:dimension <WaterSupplySewerageWasteManagementAndRemediationActivities> ;
+	qb:dimension <AllSizeBands_1> .
+
+<ds0_3_0> rdf:type qb:Observation ;
+	rdf:value 722.0 ;
+	qb:observation <ds0> ;
+	qb:dimension <Construction> ;
+	qb:dimension <WorkforceSizeLessThan250_1> .
+
+<ds0_3_1> rdf:type qb:Observation ;
+	rdf:value 312.0 ;
+	qb:observation <ds0> ;
+	qb:dimension <Construction> ;
+	qb:dimension <WorkforceSizeMoreThan250_1> .
+
+<ds0_3_2> rdf:type qb:Observation ;
+	rdf:value 1034.0 ;
+	qb:observation <ds0> ;
+	qb:dimension <Construction> ;
+	qb:dimension <AllSizeBands_1> .
+
+<ds0_4_0> rdf:type qb:Observation ;
+	rdf:value 1819.0 ;
+	qb:observation <ds0> ;
+	qb:dimension <WholesaleAndRetailTrade;RepairOfMotorVehiclesAndMotorcycles> ;
+	qb:dimension <WorkforceSizeLessThan250_1> .
+
+<ds0_4_1> rdf:type qb:Observation ;
+	rdf:value 1180.0 ;
+	qb:observation <ds0> ;
+	qb:dimension <WholesaleAndRetailTrade;RepairOfMotorVehiclesAndMotorcycles> ;
+	qb:dimension <WorkforceSizeMoreThan250_1> .
+
+<ds0_4_2> rdf:type qb:Observation ;
+	rdf:value 2999.0 ;
+	qb:observation <ds0> ;
+	qb:dimension <WholesaleAndRetailTrade;RepairOfMotorVehiclesAndMotorcycles> ;
+	qb:dimension <AllSizeBands_1> .
+
+<ds0_5_0> rdf:type qb:Observation ;
+	rdf:value 975.0 ;
+	qb:observation <ds0> ;
+	qb:dimension <AccommodationAndFoodServiceActivities> ;
+	qb:dimension <WorkforceSizeLessThan250_1> .
+
+<ds0_5_1> rdf:type qb:Observation ;
+	rdf:value 659.0 ;
+	qb:observation <ds0> ;
+	qb:dimension <AccommodationAndFoodServiceActivities> ;
+	qb:dimension <WorkforceSizeMoreThan250_1> .
+
+<ds0_5_2> rdf:type qb:Observation ;
+	rdf:value 1634.0 ;
+	qb:observation <ds0> ;
+	qb:dimension <AccommodationAndFoodServiceActivities> ;
+	qb:dimension <AllSizeBands_1> .
+
+<ds0_6_0> rdf:type qb:Observation ;
+	rdf:value 528.0 ;
+	qb:observation <ds0> ;
+	qb:dimension <TransportationAndStorage> ;
+	qb:dimension <WorkforceSizeLessThan250_1> .
+
+<ds0_6_1> rdf:type qb:Observation ;
+	rdf:value 335.0 ;
+	qb:observation <ds0> ;
+	qb:dimension <TransportationAndStorage> ;
+	qb:dimension <WorkforceSizeMoreThan250_1> .
+
+<ds0_6_2> rdf:type qb:Observation ;
+	rdf:value 863.0 ;
+	qb:observation <ds0> ;
+	qb:dimension <TransportationAndStorage> ;
+	qb:dimension <AllSizeBands_1> .
+
+<ds0_7_0> rdf:type qb:Observation ;
+	rdf:value 794.0 ;
+	qb:observation <ds0> ;
+	qb:dimension <InformationAndCommunication> ;
+	qb:dimension <WorkforceSizeLessThan250_1> .
+
+<ds0_7_1> rdf:type qb:Observation ;
+	rdf:value 422.0 ;
+	qb:observation <ds0> ;
+	qb:dimension <InformationAndCommunication> ;
+	qb:dimension <WorkforceSizeMoreThan250_1> .
+
+<ds0_7_2> rdf:type qb:Observation ;
+	rdf:value 1216.0 ;
+	qb:observation <ds0> ;
+	qb:dimension <InformationAndCommunication> ;
+	qb:dimension <AllSizeBands_1> .
+
+<ds0_8_0> rdf:type qb:Observation ;
+	rdf:value 112.0 ;
+	qb:observation <ds0> ;
+	qb:dimension <RealEstateActivities> ;
+	qb:dimension <WorkforceSizeLessThan250_1> .
+
+<ds0_8_1> rdf:type qb:Observation ;
+	rdf:value 88.0 ;
+	qb:observation <ds0> ;
+	qb:dimension <RealEstateActivities> ;
+	qb:dimension <WorkforceSizeMoreThan250_1> .
+
+<ds0_8_2> rdf:type qb:Observation ;
+	rdf:value 200.0 ;
+	qb:observation <ds0> ;
+	qb:dimension <RealEstateActivities> ;
+	qb:dimension <AllSizeBands_1> .
+
+<ds0_9_0> rdf:type qb:Observation ;
+	rdf:value 1303.0 ;
+	qb:observation <ds0> ;
+	qb:dimension <ProfessionalScientificAndTechnicalActivities> ;
+	qb:dimension <WorkforceSizeLessThan250_1> .
+
+<ds0_9_1> rdf:type qb:Observation ;
+	rdf:value 720.0 ;
+	qb:observation <ds0> ;
+	qb:dimension <ProfessionalScientificAndTechnicalActivities> ;
+	qb:dimension <WorkforceSizeMoreThan250_1> .
+
+<ds0_9_2> rdf:type qb:Observation ;
+	rdf:value 2023.0 ;
+	qb:observation <ds0> ;
+	qb:dimension <ProfessionalScientificAndTechnicalActivities> ;
+	qb:dimension <AllSizeBands_1> .
+
+<ds0_10_0> rdf:type qb:Observation ;
+	rdf:value 1287.0 ;
+	qb:observation <ds0> ;
+	qb:dimension <AdministrativeAndSupportServiceActivities> ;
+	qb:dimension <WorkforceSizeLessThan250_1> .
+
+<ds0_10_1> rdf:type qb:Observation ;
+	rdf:value 1072.0 ;
+	qb:observation <ds0> ;
+	qb:dimension <AdministrativeAndSupportServiceActivities> ;
+	qb:dimension <WorkforceSizeMoreThan250_1> .
+
+<ds0_10_2> rdf:type qb:Observation ;
+	rdf:value 2359.0 ;
+	qb:observation <ds0> ;
+	qb:dimension <AdministrativeAndSupportServiceActivities> ;
+	qb:dimension <AllSizeBands_1> .
+
+<ds0_11_0> rdf:type qb:Observation ;
+	rdf:value 303.0 ;
+	qb:observation <ds0> ;
+	qb:dimension <Education> ;
+	qb:dimension <WorkforceSizeLessThan250_1> .
+
+<ds0_11_1> rdf:type qb:Observation ;
+	rdf:value 457.0 ;
+	qb:observation <ds0> ;
+	qb:dimension <Education> ;
+	qb:dimension <WorkforceSizeMoreThan250_1> .
+
+<ds0_11_2> rdf:type qb:Observation ;
+	rdf:value 760.0 ;
+	qb:observation <ds0> ;
+	qb:dimension <Education> ;
+	qb:dimension <AllSizeBands_1> .
+
+<ds0_12_0> rdf:type qb:Observation ;
+	rdf:value 145.0 ;
+	qb:observation <ds0> ;
+	qb:dimension <HumanHealthAndSocialWorkActivities> ;
+	qb:dimension <WorkforceSizeLessThan250_1> .
+
+<ds0_12_1> rdf:type qb:Observation ;
+	rdf:value 149.0 ;
+	qb:observation <ds0> ;
+	qb:dimension <HumanHealthAndSocialWorkActivities> ;
+	qb:dimension <WorkforceSizeMoreThan250_1> .
+
+<ds0_12_2> rdf:type qb:Observation ;
+	rdf:value 294.0 ;
+	qb:observation <ds0> ;
+	qb:dimension <HumanHealthAndSocialWorkActivities> ;
+	qb:dimension <AllSizeBands_1> .
+
+<ds0_13_0> rdf:type qb:Observation ;
+	rdf:value 415.0 ;
+	qb:observation <ds0> ;
+	qb:dimension <ArtsEntertainmentAndRecreation> ;
+	qb:dimension <WorkforceSizeLessThan250_1> .
+
+<ds0_13_1> rdf:type qb:Observation ;
+	rdf:value 303.0 ;
+	qb:observation <ds0> ;
+	qb:dimension <ArtsEntertainmentAndRecreation> ;
+	qb:dimension <WorkforceSizeMoreThan250_1> .
+
+<ds0_13_2> rdf:type qb:Observation ;
+	rdf:value 718.0 ;
+	qb:observation <ds0> ;
+	qb:dimension <ArtsEntertainmentAndRecreation> ;
+	qb:dimension <AllSizeBands_1> .
+
+<ds0_14_0> rdf:type qb:Observation ;
+	rdf:value 108.0 ;
+	qb:observation <ds0> ;
+	qb:dimension <OtherServiceActivities> ;
+	qb:dimension <WorkforceSizeLessThan250_1> .
+
+<ds0_14_1> rdf:type qb:Observation ;
+	rdf:value 29.0 ;
+	qb:observation <ds0> ;
+	qb:dimension <OtherServiceActivities> ;
+	qb:dimension <WorkforceSizeMoreThan250_1> .
+
+<ds0_14_2> rdf:type qb:Observation ;
+	rdf:value 137.0 ;
+	qb:observation <ds0> ;
+	qb:dimension <OtherServiceActivities> ;
+	qb:dimension <AllSizeBands_1> .
+
+<ds0_15_0> rdf:type qb:Observation ;
+	rdf:value 10442.0 ;
+	qb:observation <ds0> ;
+	qb:dimension <AllIndustries> ;
+	qb:dimension <WorkforceSizeLessThan250_1> .
+
+<ds0_15_1> rdf:type qb:Observation ;
+	rdf:value 7181.0 ;
+	qb:observation <ds0> ;
+	qb:dimension <AllIndustries> ;
+	qb:dimension <WorkforceSizeMoreThan250_1> .
+
+<ds0_15_2> rdf:type qb:Observation ;
+	rdf:value 17623.0 ;
+	qb:observation <ds0> ;
+	qb:dimension <AllIndustries> ;
+	qb:dimension <AllSizeBands_1> .
+
+# Dataset ds1
+
+<ds1> rdf:type qb:DataSet ;
+	dc:title "Sample for the BICS survey broken down by workforce size" ;
+	qb:dataSet <ds1_0_0> ;
+	qb:dataSet <ds1_0_1> ;
+	qb:dataSet <ds1_0_2> ;
+	qb:dataSet <ds1_0_3> .
+
+# Dataset ds1's data points
+
+<ds1_0_0> rdf:type qb:Observation ;
+	rdf:value 1326.0 ;
+	qb:observation <ds1> ;
+	qb:dimension <AllIndustries> ;
+	qb:dimension <WorkforceSize0Between99_1> .
+
+<ds1_0_1> rdf:type qb:Observation ;
+	rdf:value 9116.0 ;
+	qb:observation <ds1> ;
+	qb:dimension <AllIndustries> ;
+	qb:dimension <WorkforceSize100Between249_1> .
+
+<ds1_0_2> rdf:type qb:Observation ;
+	rdf:value 7181.0 ;
+	qb:observation <ds1> ;
+	qb:dimension <AllIndustries> ;
+	qb:dimension <WorkforceSizeMoreThan250_1> .
+
+<ds1_0_3> rdf:type qb:Observation ;
+	rdf:value 17623.0 ;
+	qb:observation <ds1> ;
+	qb:dimension <AllIndustries> ;
+	qb:dimension <AllSizeBands_1> .
+
+# Dataset ds2
+
+<ds2> rdf:type qb:DataSet ;
+	dc:title "Responses to the BICS survey broken down by industry" ;
+	qb:dataSet <ds2_0_0> ;
+	qb:dataSet <ds2_0_1> ;
+	qb:dataSet <ds2_0_2> ;
+	qb:dataSet <ds2_1_0> ;
+	qb:dataSet <ds2_1_1> ;
+	qb:dataSet <ds2_1_2> ;
+	qb:dataSet <ds2_2_0> ;
+	qb:dataSet <ds2_2_1> ;
+	qb:dataSet <ds2_2_2> ;
+	qb:dataSet <ds2_3_0> ;
+	qb:dataSet <ds2_3_1> ;
+	qb:dataSet <ds2_3_2> ;
+	qb:dataSet <ds2_4_0> ;
+	qb:dataSet <ds2_4_1> ;
+	qb:dataSet <ds2_4_2> ;
+	qb:dataSet <ds2_5_0> ;
+	qb:dataSet <ds2_5_1> ;
+	qb:dataSet <ds2_5_2> ;
+	qb:dataSet <ds2_6_0> ;
+	qb:dataSet <ds2_6_1> ;
+	qb:dataSet <ds2_6_2> ;
+	qb:dataSet <ds2_7_0> ;
+	qb:dataSet <ds2_7_1> ;
+	qb:dataSet <ds2_7_2> ;
+	qb:dataSet <ds2_8_0> ;
+	qb:dataSet <ds2_8_1> ;
+	qb:dataSet <ds2_8_2> ;
+	qb:dataSet <ds2_9_0> ;
+	qb:dataSet <ds2_9_1> ;
+	qb:dataSet <ds2_9_2> ;
+	qb:dataSet <ds2_10_0> ;
+	qb:dataSet <ds2_10_1> ;
+	qb:dataSet <ds2_10_2> ;
+	qb:dataSet <ds2_11_0> ;
+	qb:dataSet <ds2_11_1> ;
+	qb:dataSet <ds2_11_2> ;
+	qb:dataSet <ds2_12_0> ;
+	qb:dataSet <ds2_12_1> ;
+	qb:dataSet <ds2_12_2> .
+
+# Dataset ds2's data points
+
+<ds2_0_0> rdf:type qb:Observation ;
+	rdf:value 648.0 ;
+	qb:observation <ds2> ;
+	qb:dimension <Manufacturing> ;
+	qb:dimension <WorkforceSizeLessThan250_2> .
+
+<ds2_0_1> rdf:type qb:Observation ;
+	rdf:value 449.0 ;
+	qb:observation <ds2> ;
+	qb:dimension <Manufacturing> ;
+	qb:dimension <WorkforceSizeMoreThan250_2> .
+
+<ds2_0_2> rdf:type qb:Observation ;
+	rdf:value 1097.0 ;
+	qb:observation <ds2> ;
+	qb:dimension <Manufacturing> ;
+	qb:dimension <AllSizeBands_2> .
+
+<ds2_1_0> rdf:type qb:Observation ;
+	rdf:value 50.0 ;
+	qb:observation <ds2> ;
+	qb:dimension <WaterSupplySewerageWasteManagementAndRemediationActivities> ;
+	qb:dimension <WorkforceSizeLessThan250_2> .
+
+<ds2_1_1> rdf:type qb:Observation ;
+	rdf:value 20.0 ;
+	qb:observation <ds2> ;
+	qb:dimension <WaterSupplySewerageWasteManagementAndRemediationActivities> ;
+	qb:dimension <WorkforceSizeMoreThan250_2> .
+
+<ds2_1_2> rdf:type qb:Observation ;
+	rdf:value 70.0 ;
+	qb:observation <ds2> ;
+	qb:dimension <WaterSupplySewerageWasteManagementAndRemediationActivities> ;
+	qb:dimension <AllSizeBands_2> .
+
+<ds2_2_0> rdf:type qb:Observation ;
+	rdf:value 208.0 ;
+	qb:observation <ds2> ;
+	qb:dimension <Construction> ;
+	qb:dimension <WorkforceSizeLessThan250_2> .
+
+<ds2_2_1> rdf:type qb:Observation ;
+	rdf:value 76.0 ;
+	qb:observation <ds2> ;
+	qb:dimension <Construction> ;
+	qb:dimension <WorkforceSizeMoreThan250_2> .
+
+<ds2_2_2> rdf:type qb:Observation ;
+	rdf:value 284.0 ;
+	qb:observation <ds2> ;
+	qb:dimension <Construction> ;
+	qb:dimension <AllSizeBands_2> .
+
+<ds2_3_0> rdf:type qb:Observation ;
+	rdf:value 686.0 ;
+	qb:observation <ds2> ;
+	qb:dimension <WholesaleAndRetailTrade;RepairOfMotorVehiclesAndMotorcycles> ;
+	qb:dimension <WorkforceSizeLessThan250_2> .
+
+<ds2_3_1> rdf:type qb:Observation ;
+	rdf:value 344.0 ;
+	qb:observation <ds2> ;
+	qb:dimension <WholesaleAndRetailTrade;RepairOfMotorVehiclesAndMotorcycles> ;
+	qb:dimension <WorkforceSizeMoreThan250_2> .
+
+<ds2_3_2> rdf:type qb:Observation ;
+	rdf:value 1030.0 ;
+	qb:observation <ds2> ;
+	qb:dimension <WholesaleAndRetailTrade;RepairOfMotorVehiclesAndMotorcycles> ;
+	qb:dimension <AllSizeBands_2> .
+
+<ds2_4_0> rdf:type qb:Observation ;
+	rdf:value 321.0 ;
+	qb:observation <ds2> ;
+	qb:dimension <AccommodationAndFoodServiceActivities> ;
+	qb:dimension <WorkforceSizeLessThan250_2> .
+
+<ds2_4_1> rdf:type qb:Observation ;
+	rdf:value 195.0 ;
+	qb:observation <ds2> ;
+	qb:dimension <AccommodationAndFoodServiceActivities> ;
+	qb:dimension <WorkforceSizeMoreThan250_2> .
+
+<ds2_4_2> rdf:type qb:Observation ;
+	rdf:value 516.0 ;
+	qb:observation <ds2> ;
+	qb:dimension <AccommodationAndFoodServiceActivities> ;
+	qb:dimension <AllSizeBands_2> .
+
+<ds2_5_0> rdf:type qb:Observation ;
+	rdf:value 193.0 ;
+	qb:observation <ds2> ;
+	qb:dimension <TransportationAndStorage> ;
+	qb:dimension <WorkforceSizeLessThan250_2> .
+
+<ds2_5_1> rdf:type qb:Observation ;
+	rdf:value 89.0 ;
+	qb:observation <ds2> ;
+	qb:dimension <TransportationAndStorage> ;
+	qb:dimension <WorkforceSizeMoreThan250_2> .
+
+<ds2_5_2> rdf:type qb:Observation ;
+	rdf:value 282.0 ;
+	qb:observation <ds2> ;
+	qb:dimension <TransportationAndStorage> ;
+	qb:dimension <AllSizeBands_2> .
+
+<ds2_6_0> rdf:type qb:Observation ;
+	rdf:value 297.0 ;
+	qb:observation <ds2> ;
+	qb:dimension <InformationAndCommunication> ;
+	qb:dimension <WorkforceSizeLessThan250_2> .
+
+<ds2_6_1> rdf:type qb:Observation ;
+	rdf:value 121.0 ;
+	qb:observation <ds2> ;
+	qb:dimension <InformationAndCommunication> ;
+	qb:dimension <WorkforceSizeMoreThan250_2> .
+
+<ds2_6_2> rdf:type qb:Observation ;
+	rdf:value 418.0 ;
+	qb:observation <ds2> ;
+	qb:dimension <InformationAndCommunication> ;
+	qb:dimension <AllSizeBands_2> .
+
+<ds2_7_0> rdf:type qb:Observation ;
+	rdf:value 468.0 ;
+	qb:observation <ds2> ;
+	qb:dimension <ProfessionalScientificAndTechnicalActivities> ;
+	qb:dimension <WorkforceSizeLessThan250_2> .
+
+<ds2_7_1> rdf:type qb:Observation ;
+	rdf:value 265.0 ;
+	qb:observation <ds2> ;
+	qb:dimension <ProfessionalScientificAndTechnicalActivities> ;
+	qb:dimension <WorkforceSizeMoreThan250_2> .
+
+<ds2_7_2> rdf:type qb:Observation ;
+	rdf:value 733.0 ;
+	qb:observation <ds2> ;
+	qb:dimension <ProfessionalScientificAndTechnicalActivities> ;
+	qb:dimension <AllSizeBands_2> .
+
+<ds2_8_0> rdf:type qb:Observation ;
+	rdf:value 453.0 ;
+	qb:observation <ds2> ;
+	qb:dimension <AdministrativeAndSupportServiceActivities> ;
+	qb:dimension <WorkforceSizeLessThan250_2> .
+
+<ds2_8_1> rdf:type qb:Observation ;
+	rdf:value 361.0 ;
+	qb:observation <ds2> ;
+	qb:dimension <AdministrativeAndSupportServiceActivities> ;
+	qb:dimension <WorkforceSizeMoreThan250_2> .
+
+<ds2_8_2> rdf:type qb:Observation ;
+	rdf:value 814.0 ;
+	qb:observation <ds2> ;
+	qb:dimension <AdministrativeAndSupportServiceActivities> ;
+	qb:dimension <AllSizeBands_2> .
+
+<ds2_9_0> rdf:type qb:Observation ;
+	rdf:value 127.0 ;
+	qb:observation <ds2> ;
+	qb:dimension <Education> ;
+	qb:dimension <WorkforceSizeLessThan250_2> .
+
+<ds2_9_1> rdf:type qb:Observation ;
+	rdf:value 191.0 ;
+	qb:observation <ds2> ;
+	qb:dimension <Education> ;
+	qb:dimension <WorkforceSizeMoreThan250_2> .
+
+<ds2_9_2> rdf:type qb:Observation ;
+	rdf:value 318.0 ;
+	qb:observation <ds2> ;
+	qb:dimension <Education> ;
+	qb:dimension <AllSizeBands_2> .
+
+<ds2_10_0> rdf:type qb:Observation ;
+	rdf:value 85.0 ;
+	qb:observation <ds2> ;
+	qb:dimension <HumanHealthAndSocialWorkActivities> ;
+	qb:dimension <WorkforceSizeLessThan250_2> .
+
+<ds2_10_1> rdf:type qb:Observation ;
+	rdf:value 59.0 ;
+	qb:observation <ds2> ;
+	qb:dimension <HumanHealthAndSocialWorkActivities> ;
+	qb:dimension <WorkforceSizeMoreThan250_2> .
+
+<ds2_10_2> rdf:type qb:Observation ;
+	rdf:value 144.0 ;
+	qb:observation <ds2> ;
+	qb:dimension <HumanHealthAndSocialWorkActivities> ;
+	qb:dimension <AllSizeBands_2> .
+
+<ds2_11_0> rdf:type qb:Observation ;
+	rdf:value 180.0 ;
+	qb:observation <ds2> ;
+	qb:dimension <ArtsEntertainmentAndRecreation> ;
+	qb:dimension <WorkforceSizeLessThan250_2> .
+
+<ds2_11_1> rdf:type qb:Observation ;
+	rdf:value 98.0 ;
+	qb:observation <ds2> ;
+	qb:dimension <ArtsEntertainmentAndRecreation> ;
+	qb:dimension <WorkforceSizeMoreThan250_2> .
+
+<ds2_11_2> rdf:type qb:Observation ;
+	rdf:value 278.0 ;
+	qb:observation <ds2> ;
+	qb:dimension <ArtsEntertainmentAndRecreation> ;
+	qb:dimension <AllSizeBands_2> .
+
+<ds2_12_0> rdf:type qb:Observation ;
+	rdf:value 3809.0 ;
+	qb:observation <ds2> ;
+	qb:dimension <AllIndustries> ;
+	qb:dimension <WorkforceSizeLessThan250_2> .
+
+<ds2_12_1> rdf:type qb:Observation ;
+	rdf:value 2305.0 ;
+	qb:observation <ds2> ;
+	qb:dimension <AllIndustries> ;
+	qb:dimension <WorkforceSizeMoreThan250_2> .
+
+<ds2_12_2> rdf:type qb:Observation ;
+	rdf:value 6114.0 ;
+	qb:observation <ds2> ;
+	qb:dimension <AllIndustries> ;
+	qb:dimension <AllSizeBands_2> .
+
+# Dataset ds3
+
+<ds3> rdf:type qb:DataSet ;
+	dc:title "Responses to the BICS survey broken down by workforce size" ;
+	qb:dataSet <ds3_0_0> ;
+	qb:dataSet <ds3_0_1> ;
+	qb:dataSet <ds3_0_2> ;
+	qb:dataSet <ds3_0_3> .
+
+# Dataset ds3's data points
+
+<ds3_0_0> rdf:type qb:Observation ;
+	rdf:value 357.0 ;
+	qb:observation <ds3> ;
+	qb:dimension <AllIndustries> ;
+	qb:dimension <WorkforceSize0Between99_2> .
+
+<ds3_0_1> rdf:type qb:Observation ;
+	rdf:value 3452.0 ;
+	qb:observation <ds3> ;
+	qb:dimension <AllIndustries> ;
+	qb:dimension <WorkforceSize100Between249_2> .
+
+<ds3_0_2> rdf:type qb:Observation ;
+	rdf:value 2305.0 ;
+	qb:observation <ds3> ;
+	qb:dimension <AllIndustries> ;
+	qb:dimension <WorkforceSizeMoreThan250_2> .
+
+<ds3_0_3> rdf:type qb:Observation ;
+	rdf:value 6114.0 ;
+	qb:observation <ds3> ;
+	qb:dimension <AllIndustries> ;
+	qb:dimension <AllSizeBands_2> .
+
+# Dataset ds4
+
+<ds4> rdf:type qb:DataSet ;
+	dc:title "Proportion of responses to the BICS survey broken down by industry" ;
+	qb:dataSet <ds4_0_0> ;
+	qb:dataSet <ds4_0_1> ;
+	qb:dataSet <ds4_0_2> ;
+	qb:dataSet <ds4_1_0> ;
+	qb:dataSet <ds4_1_1> ;
+	qb:dataSet <ds4_1_2> ;
+	qb:dataSet <ds4_2_0> ;
+	qb:dataSet <ds4_2_1> ;
+	qb:dataSet <ds4_2_2> ;
+	qb:dataSet <ds4_3_0> ;
+	qb:dataSet <ds4_3_1> ;
+	qb:dataSet <ds4_3_2> ;
+	qb:dataSet <ds4_4_0> ;
+	qb:dataSet <ds4_4_1> ;
+	qb:dataSet <ds4_4_2> ;
+	qb:dataSet <ds4_5_0> ;
+	qb:dataSet <ds4_5_1> ;
+	qb:dataSet <ds4_5_2> ;
+	qb:dataSet <ds4_6_0> ;
+	qb:dataSet <ds4_6_1> ;
+	qb:dataSet <ds4_6_2> ;
+	qb:dataSet <ds4_7_0> ;
+	qb:dataSet <ds4_7_1> ;
+	qb:dataSet <ds4_7_2> ;
+	qb:dataSet <ds4_8_0> ;
+	qb:dataSet <ds4_8_1> ;
+	qb:dataSet <ds4_8_2> ;
+	qb:dataSet <ds4_9_0> ;
+	qb:dataSet <ds4_9_1> ;
+	qb:dataSet <ds4_9_2> ;
+	qb:dataSet <ds4_10_0> ;
+	qb:dataSet <ds4_10_1> ;
+	qb:dataSet <ds4_10_2> ;
+	qb:dataSet <ds4_11_0> ;
+	qb:dataSet <ds4_11_1> ;
+	qb:dataSet <ds4_11_2> ;
+	qb:dataSet <ds4_12_0> ;
+	qb:dataSet <ds4_12_1> ;
+	qb:dataSet <ds4_12_2> .
+
+# Dataset ds4's data points
+
+<ds4_0_0> rdf:type qb:Observation ;
+	rdf:value 0.363 ;
+	qb:observation <ds4> ;
+	qb:dimension <Manufacturing> ;
+	qb:dimension <WorkforceSizeLessThan250_3> .
+
+<ds4_0_1> rdf:type qb:Observation ;
+	rdf:value 0.328 ;
+	qb:observation <ds4> ;
+	qb:dimension <Manufacturing> ;
+	qb:dimension <WorkforceSizeMoreThan250_3> .
+
+<ds4_0_2> rdf:type qb:Observation ;
+	rdf:value 0.348 ;
+	qb:observation <ds4> ;
+	qb:dimension <Manufacturing> ;
+	qb:dimension <AllSizeBands_3> .
+
+<ds4_1_0> rdf:type qb:Observation ;
+	rdf:value 0.385 ;
+	qb:observation <ds4> ;
+	qb:dimension <WaterSupplySewerageWasteManagementAndRemediationActivities> ;
+	qb:dimension <WorkforceSizeLessThan250_3> .
+
+<ds4_1_1> rdf:type qb:Observation ;
+	rdf:value 0.282 ;
+	qb:observation <ds4> ;
+	qb:dimension <WaterSupplySewerageWasteManagementAndRemediationActivities> ;
+	qb:dimension <WorkforceSizeMoreThan250_3> .
+
+<ds4_1_2> rdf:type qb:Observation ;
+	rdf:value 0.348 ;
+	qb:observation <ds4> ;
+	qb:dimension <WaterSupplySewerageWasteManagementAndRemediationActivities> ;
+	qb:dimension <AllSizeBands_3> .
+
+<ds4_2_0> rdf:type qb:Observation ;
+	rdf:value 0.288 ;
+	qb:observation <ds4> ;
+	qb:dimension <Construction> ;
+	qb:dimension <WorkforceSizeLessThan250_3> .
+
+<ds4_2_1> rdf:type qb:Observation ;
+	rdf:value 0.244 ;
+	qb:observation <ds4> ;
+	qb:dimension <Construction> ;
+	qb:dimension <WorkforceSizeMoreThan250_3> .
+
+<ds4_2_2> rdf:type qb:Observation ;
+	rdf:value 0.275 ;
+	qb:observation <ds4> ;
+	qb:dimension <Construction> ;
+	qb:dimension <AllSizeBands_3> .
+
+<ds4_3_0> rdf:type qb:Observation ;
+	rdf:value 0.377 ;
+	qb:observation <ds4> ;
+	qb:dimension <WholesaleAndRetailTrade;RepairOfMotorVehiclesAndMotorcycles> ;
+	qb:dimension <WorkforceSizeLessThan250_3> .
+
+<ds4_3_1> rdf:type qb:Observation ;
+	rdf:value 0.292 ;
+	qb:observation <ds4> ;
+	qb:dimension <WholesaleAndRetailTrade;RepairOfMotorVehiclesAndMotorcycles> ;
+	qb:dimension <WorkforceSizeMoreThan250_3> .
+
+<ds4_3_2> rdf:type qb:Observation ;
+	rdf:value 0.343 ;
+	qb:observation <ds4> ;
+	qb:dimension <WholesaleAndRetailTrade;RepairOfMotorVehiclesAndMotorcycles> ;
+	qb:dimension <AllSizeBands_3> .
+
+<ds4_4_0> rdf:type qb:Observation ;
+	rdf:value 0.329 ;
+	qb:observation <ds4> ;
+	qb:dimension <AccommodationAndFoodServiceActivities> ;
+	qb:dimension <WorkforceSizeLessThan250_3> .
+
+<ds4_4_1> rdf:type qb:Observation ;
+	rdf:value 0.296 ;
+	qb:observation <ds4> ;
+	qb:dimension <AccommodationAndFoodServiceActivities> ;
+	qb:dimension <WorkforceSizeMoreThan250_3> .
+
+<ds4_4_2> rdf:type qb:Observation ;
+	rdf:value 0.316 ;
+	qb:observation <ds4> ;
+	qb:dimension <AccommodationAndFoodServiceActivities> ;
+	qb:dimension <AllSizeBands_3> .
+
+<ds4_5_0> rdf:type qb:Observation ;
+	rdf:value 0.366 ;
+	qb:observation <ds4> ;
+	qb:dimension <TransportationAndStorage> ;
+	qb:dimension <WorkforceSizeLessThan250_3> .
+
+<ds4_5_1> rdf:type qb:Observation ;
+	rdf:value 0.266 ;
+	qb:observation <ds4> ;
+	qb:dimension <TransportationAndStorage> ;
+	qb:dimension <WorkforceSizeMoreThan250_3> .
+
+<ds4_5_2> rdf:type qb:Observation ;
+	rdf:value 0.327 ;
+	qb:observation <ds4> ;
+	qb:dimension <TransportationAndStorage> ;
+	qb:dimension <AllSizeBands_3> .
+
+<ds4_6_0> rdf:type qb:Observation ;
+	rdf:value 0.374 ;
+	qb:observation <ds4> ;
+	qb:dimension <InformationAndCommunication> ;
+	qb:dimension <WorkforceSizeLessThan250_3> .
+
+<ds4_6_1> rdf:type qb:Observation ;
+	rdf:value 0.287 ;
+	qb:observation <ds4> ;
+	qb:dimension <InformationAndCommunication> ;
+	qb:dimension <WorkforceSizeMoreThan250_3> .
+
+<ds4_6_2> rdf:type qb:Observation ;
+	rdf:value 0.344 ;
+	qb:observation <ds4> ;
+	qb:dimension <InformationAndCommunication> ;
+	qb:dimension <AllSizeBands_3> .
+
+<ds4_7_0> rdf:type qb:Observation ;
+	rdf:value 0.359 ;
+	qb:observation <ds4> ;
+	qb:dimension <ProfessionalScientificAndTechnicalActivities> ;
+	qb:dimension <WorkforceSizeLessThan250_3> .
+
+<ds4_7_1> rdf:type qb:Observation ;
+	rdf:value 0.368 ;
+	qb:observation <ds4> ;
+	qb:dimension <ProfessionalScientificAndTechnicalActivities> ;
+	qb:dimension <WorkforceSizeMoreThan250_3> .
+
+<ds4_7_2> rdf:type qb:Observation ;
+	rdf:value 0.362 ;
+	qb:observation <ds4> ;
+	qb:dimension <ProfessionalScientificAndTechnicalActivities> ;
+	qb:dimension <AllSizeBands_3> .
+
+<ds4_8_0> rdf:type qb:Observation ;
+	rdf:value 0.352 ;
+	qb:observation <ds4> ;
+	qb:dimension <AdministrativeAndSupportServiceActivities> ;
+	qb:dimension <WorkforceSizeLessThan250_3> .
+
+<ds4_8_1> rdf:type qb:Observation ;
+	rdf:value 0.337 ;
+	qb:observation <ds4> ;
+	qb:dimension <AdministrativeAndSupportServiceActivities> ;
+	qb:dimension <WorkforceSizeMoreThan250_3> .
+
+<ds4_8_2> rdf:type qb:Observation ;
+	rdf:value 0.345 ;
+	qb:observation <ds4> ;
+	qb:dimension <AdministrativeAndSupportServiceActivities> ;
+	qb:dimension <AllSizeBands_3> .
+
+<ds4_9_0> rdf:type qb:Observation ;
+	rdf:value 0.419 ;
+	qb:observation <ds4> ;
+	qb:dimension <Education> ;
+	qb:dimension <WorkforceSizeLessThan250_3> .
+
+<ds4_9_1> rdf:type qb:Observation ;
+	rdf:value 0.418 ;
+	qb:observation <ds4> ;
+	qb:dimension <Education> ;
+	qb:dimension <WorkforceSizeMoreThan250_3> .
+
+<ds4_9_2> rdf:type qb:Observation ;
+	rdf:value 0.418 ;
+	qb:observation <ds4> ;
+	qb:dimension <Education> ;
+	qb:dimension <AllSizeBands_3> .
+
+<ds4_10_0> rdf:type qb:Observation ;
+	rdf:value 0.586 ;
+	qb:observation <ds4> ;
+	qb:dimension <HumanHealthAndSocialWorkActivities> ;
+	qb:dimension <WorkforceSizeLessThan250_3> .
+
+<ds4_10_1> rdf:type qb:Observation ;
+	rdf:value 0.396 ;
+	qb:observation <ds4> ;
+	qb:dimension <HumanHealthAndSocialWorkActivities> ;
+	qb:dimension <WorkforceSizeMoreThan250_3> .
+
+<ds4_10_2> rdf:type qb:Observation ;
+	rdf:value 0.49 ;
+	qb:observation <ds4> ;
+	qb:dimension <HumanHealthAndSocialWorkActivities> ;
+	qb:dimension <AllSizeBands_3> .
+
+<ds4_11_0> rdf:type qb:Observation ;
+	rdf:value 0.434 ;
+	qb:observation <ds4> ;
+	qb:dimension <ArtsEntertainmentAndRecreation> ;
+	qb:dimension <WorkforceSizeLessThan250_3> .
+
+<ds4_11_1> rdf:type qb:Observation ;
+	rdf:value 0.323 ;
+	qb:observation <ds4> ;
+	qb:dimension <ArtsEntertainmentAndRecreation> ;
+	qb:dimension <WorkforceSizeMoreThan250_3> .
+
+<ds4_11_2> rdf:type qb:Observation ;
+	rdf:value 0.387 ;
+	qb:observation <ds4> ;
+	qb:dimension <ArtsEntertainmentAndRecreation> ;
+	qb:dimension <AllSizeBands_3> .
+
+<ds4_12_0> rdf:type qb:Observation ;
+	rdf:value 0.365 ;
+	qb:observation <ds4> ;
+	qb:dimension <AllIndustries> ;
+	qb:dimension <WorkforceSizeLessThan250_3> .
+
+<ds4_12_1> rdf:type qb:Observation ;
+	rdf:value 0.321 ;
+	qb:observation <ds4> ;
+	qb:dimension <AllIndustries> ;
+	qb:dimension <WorkforceSizeMoreThan250_3> .
+
+<ds4_12_2> rdf:type qb:Observation ;
+	rdf:value 0.347 ;
+	qb:observation <ds4> ;
+	qb:dimension <AllIndustries> ;
+	qb:dimension <AllSizeBands_3> .
+
+# Dataset ds5
+
+<ds5> rdf:type qb:DataSet ;
+	dc:title "Proportion of responses to the BICS survey broken down by workforce size" ;
+	qb:dataSet <ds5_0_0> ;
+	qb:dataSet <ds5_0_1> ;
+	qb:dataSet <ds5_0_2> ;
+	qb:dataSet <ds5_0_3> .
+
+# Dataset ds5's data points
+
+<ds5_0_0> rdf:type qb:Observation ;
+	rdf:value 0.269 ;
+	qb:observation <ds5> ;
+	qb:dimension <AllIndustries> ;
+	qb:dimension <WorkforceSize0Between99_3> .
+
+<ds5_0_1> rdf:type qb:Observation ;
+	rdf:value 0.379 ;
+	qb:observation <ds5> ;
+	qb:dimension <AllIndustries> ;
+	qb:dimension <WorkforceSize100Between249_3> .
+
+<ds5_0_2> rdf:type qb:Observation ;
+	rdf:value 0.321 ;
+	qb:observation <ds5> ;
+	qb:dimension <AllIndustries> ;
+	qb:dimension <WorkforceSizeMoreThan250_3> .
+
+<ds5_0_3> rdf:type qb:Observation ;
+	rdf:value 0.347 ;
+	qb:observation <ds5> ;
+	qb:dimension <AllIndustries> ;
+	qb:dimension <AllSizeBands_3> .
+
+# Dataset ds6
+
+<ds6> rdf:type qb:DataSet ;
+	dc:title "Question: What is the current trading status of your enterprise? " ;
+	qb:dataSet <ds6_0_0> ;
+	qb:dataSet <ds6_0_1> ;
+	qb:dataSet <ds6_0_2> ;
+	qb:dataSet <ds6_1_0> ;
+	qb:dataSet <ds6_1_1> ;
+	qb:dataSet <ds6_1_2> ;
+	qb:dataSet <ds6_2_0> ;
+	qb:dataSet <ds6_2_1> ;
+	qb:dataSet <ds6_2_2> ;
+	qb:dataSet <ds6_3_0> ;
+	qb:dataSet <ds6_3_1> ;
+	qb:dataSet <ds6_3_2> ;
+	qb:dataSet <ds6_4_0> ;
+	qb:dataSet <ds6_4_1> ;
+	qb:dataSet <ds6_4_2> ;
+	qb:dataSet <ds6_5_0> ;
+	qb:dataSet <ds6_5_1> ;
+	qb:dataSet <ds6_5_2> ;
+	qb:dataSet <ds6_6_0> ;
+	qb:dataSet <ds6_6_1> ;
+	qb:dataSet <ds6_6_2> ;
+	qb:dataSet <ds6_7_0> ;
+	qb:dataSet <ds6_7_1> ;
+	qb:dataSet <ds6_7_2> ;
+	qb:dataSet <ds6_8_0> ;
+	qb:dataSet <ds6_8_1> ;
+	qb:dataSet <ds6_8_2> ;
+	qb:dataSet <ds6_9_0> ;
+	qb:dataSet <ds6_9_1> ;
+	qb:dataSet <ds6_9_2> ;
+	qb:dataSet <ds6_10_0> ;
+	qb:dataSet <ds6_10_1> ;
+	qb:dataSet <ds6_10_2> ;
+	qb:dataSet <ds6_11_0> ;
+	qb:dataSet <ds6_11_1> ;
+	qb:dataSet <ds6_11_2> ;
+	qb:dataSet <ds6_12_0> ;
+	qb:dataSet <ds6_12_1> ;
+	qb:dataSet <ds6_12_2> .
+
+# Dataset ds6's data points
+
+<ds6_0_0> rdf:type qb:Observation ;
+	rdf:value 0.79 ;
+	qb:observation <ds6> ;
+	qb:dimension <Manufacturing> ;
+	qb:dimension <Continuingtotrade_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds6_0_1> rdf:type qb:Observation ;
+	rdf:value 0.004 ;
+	qb:observation <ds6> ;
+	qb:dimension <Manufacturing> ;
+	qb:dimension <Haspermanentlyceasedtrading_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds6_0_2> rdf:type qb:Observation ;
+	rdf:value 0.206 ;
+	qb:observation <ds6> ;
+	qb:dimension <Manufacturing> ;
+	qb:dimension <Hastemporarilyclosedortemporarilypausedtrading_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds6_1_0> rdf:type qb:Observation ;
+	rdf:value 0.9 ;
+	qb:observation <ds6> ;
+	qb:dimension <WaterSupplySewerageWasteManagementAndRemediationActivities> ;
+	qb:dimension <Continuingtotrade_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds6_1_1> rdf:type qb:Observation ;
+	rdf:value 0.0 ;
+	qb:observation <ds6> ;
+	qb:dimension <WaterSupplySewerageWasteManagementAndRemediationActivities> ;
+	qb:dimension <Haspermanentlyceasedtrading_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds6_1_2> rdf:type qb:Observation ;
+	rdf:value 0.1 ;
+	qb:observation <ds6> ;
+	qb:dimension <WaterSupplySewerageWasteManagementAndRemediationActivities> ;
+	qb:dimension <Hastemporarilyclosedortemporarilypausedtrading_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds6_2_0> rdf:type qb:Observation ;
+	rdf:value 0.732 ;
+	qb:observation <ds6> ;
+	qb:dimension <Construction> ;
+	qb:dimension <Continuingtotrade_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds6_2_1> rdf:type qb:Observation ;
+	rdf:value 0.007 ;
+	qb:observation <ds6> ;
+	qb:dimension <Construction> ;
+	qb:dimension <Haspermanentlyceasedtrading_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds6_2_2> rdf:type qb:Observation ;
+	rdf:value 0.261 ;
+	qb:observation <ds6> ;
+	qb:dimension <Construction> ;
+	qb:dimension <Hastemporarilyclosedortemporarilypausedtrading_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds6_3_0> rdf:type qb:Observation ;
+	rdf:value 0.752 ;
+	qb:observation <ds6> ;
+	qb:dimension <WholesaleAndRetailTrade;RepairOfMotorVehiclesAndMotorcycles> ;
+	qb:dimension <Continuingtotrade_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds6_3_1> rdf:type qb:Observation ;
+	rdf:value 0.005 ;
+	qb:observation <ds6> ;
+	qb:dimension <WholesaleAndRetailTrade;RepairOfMotorVehiclesAndMotorcycles> ;
+	qb:dimension <Haspermanentlyceasedtrading_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds6_3_2> rdf:type qb:Observation ;
+	rdf:value 0.243 ;
+	qb:observation <ds6> ;
+	qb:dimension <WholesaleAndRetailTrade;RepairOfMotorVehiclesAndMotorcycles> ;
+	qb:dimension <Hastemporarilyclosedortemporarilypausedtrading_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds6_4_0> rdf:type qb:Observation ;
+	rdf:value 0.182 ;
+	qb:observation <ds6> ;
+	qb:dimension <AccommodationAndFoodServiceActivities> ;
+	qb:dimension <Continuingtotrade_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds6_4_1> rdf:type qb:Observation ;
+	rdf:value 0.012 ;
+	qb:observation <ds6> ;
+	qb:dimension <AccommodationAndFoodServiceActivities> ;
+	qb:dimension <Haspermanentlyceasedtrading_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds6_4_2> rdf:type qb:Observation ;
+	rdf:value 0.806 ;
+	qb:observation <ds6> ;
+	qb:dimension <AccommodationAndFoodServiceActivities> ;
+	qb:dimension <Hastemporarilyclosedortemporarilypausedtrading_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds6_5_0> rdf:type qb:Observation ;
+	rdf:value 0.915 ;
+	qb:observation <ds6> ;
+	qb:dimension <TransportationAndStorage> ;
+	qb:dimension <Continuingtotrade_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds6_5_1> rdf:type qb:Observation ;
+	rdf:value 0.0 ;
+	qb:observation <ds6> ;
+	qb:dimension <TransportationAndStorage> ;
+	qb:dimension <Haspermanentlyceasedtrading_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds6_5_2> rdf:type qb:Observation ;
+	rdf:value 0.085 ;
+	qb:observation <ds6> ;
+	qb:dimension <TransportationAndStorage> ;
+	qb:dimension <Hastemporarilyclosedortemporarilypausedtrading_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds6_6_0> rdf:type qb:Observation ;
+	rdf:value 0.95 ;
+	qb:observation <ds6> ;
+	qb:dimension <InformationAndCommunication> ;
+	qb:dimension <Continuingtotrade_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds6_6_1> rdf:type qb:Observation ;
+	rdf:value 0.005 ;
+	qb:observation <ds6> ;
+	qb:dimension <InformationAndCommunication> ;
+	qb:dimension <Haspermanentlyceasedtrading_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds6_6_2> rdf:type qb:Observation ;
+	rdf:value 0.0451232 ;
+	qb:observation <ds6> ;
+	qb:dimension <InformationAndCommunication> ;
+	qb:dimension <Hastemporarilyclosedortemporarilypausedtrading_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds6_7_0> rdf:type qb:Observation ;
+	rdf:value 0.967 ;
+	qb:observation <ds6> ;
+	qb:dimension <ProfessionalScientificAndTechnicalActivities> ;
+	qb:dimension <Continuingtotrade_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds6_7_1> rdf:type qb:Observation ;
+	rdf:value 0.003 ;
+	qb:observation <ds6> ;
+	qb:dimension <ProfessionalScientificAndTechnicalActivities> ;
+	qb:dimension <Haspermanentlyceasedtrading_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds6_7_2> rdf:type qb:Observation ;
+	rdf:value 0.03 ;
+	qb:observation <ds6> ;
+	qb:dimension <ProfessionalScientificAndTechnicalActivities> ;
+	qb:dimension <Hastemporarilyclosedortemporarilypausedtrading_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds6_8_0> rdf:type qb:Observation ;
+	rdf:value 0.915 ;
+	qb:observation <ds6> ;
+	qb:dimension <AdministrativeAndSupportServiceActivities> ;
+	qb:dimension <Continuingtotrade_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds6_8_1> rdf:type qb:Observation ;
+	rdf:value 0.004 ;
+	qb:observation <ds6> ;
+	qb:dimension <AdministrativeAndSupportServiceActivities> ;
+	qb:dimension <Haspermanentlyceasedtrading_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds6_8_2> rdf:type qb:Observation ;
+	rdf:value 0.081 ;
+	qb:observation <ds6> ;
+	qb:dimension <AdministrativeAndSupportServiceActivities> ;
+	qb:dimension <Hastemporarilyclosedortemporarilypausedtrading_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds6_9_0> rdf:type qb:Observation ;
+	rdf:value 0.868 ;
+	qb:observation <ds6> ;
+	qb:dimension <Education> ;
+	qb:dimension <Continuingtotrade_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds6_9_1> rdf:type qb:Observation ;
+	rdf:value 0.006 ;
+	qb:observation <ds6> ;
+	qb:dimension <Education> ;
+	qb:dimension <Haspermanentlyceasedtrading_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds6_9_2> rdf:type qb:Observation ;
+	rdf:value 0.126 ;
+	qb:observation <ds6> ;
+	qb:dimension <Education> ;
+	qb:dimension <Hastemporarilyclosedortemporarilypausedtrading_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds6_10_0> rdf:type qb:Observation ;
+	rdf:value 0.938 ;
+	qb:observation <ds6> ;
+	qb:dimension <HumanHealthAndSocialWorkActivities> ;
+	qb:dimension <Continuingtotrade_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds6_10_1> rdf:type qb:Observation ;
+	rdf:value 0.013 ;
+	qb:observation <ds6> ;
+	qb:dimension <HumanHealthAndSocialWorkActivities> ;
+	qb:dimension <Haspermanentlyceasedtrading_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds6_10_2> rdf:type qb:Observation ;
+	rdf:value 0.049 ;
+	qb:observation <ds6> ;
+	qb:dimension <HumanHealthAndSocialWorkActivities> ;
+	qb:dimension <Hastemporarilyclosedortemporarilypausedtrading_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds6_11_0> rdf:type qb:Observation ;
+	rdf:value 0.205 ;
+	qb:observation <ds6> ;
+	qb:dimension <ArtsEntertainmentAndRecreation> ;
+	qb:dimension <Continuingtotrade_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds6_11_1> rdf:type qb:Observation ;
+	rdf:value 0.0 ;
+	qb:observation <ds6> ;
+	qb:dimension <ArtsEntertainmentAndRecreation> ;
+	qb:dimension <Haspermanentlyceasedtrading_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds6_11_2> rdf:type qb:Observation ;
+	rdf:value 0.795 ;
+	qb:observation <ds6> ;
+	qb:dimension <ArtsEntertainmentAndRecreation> ;
+	qb:dimension <Hastemporarilyclosedortemporarilypausedtrading_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds6_12_0> rdf:type qb:Observation ;
+	rdf:value 0.767 ;
+	qb:observation <ds6> ;
+	qb:dimension <AllIndustries> ;
+	qb:dimension <Continuingtotrade_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds6_12_1> rdf:type qb:Observation ;
+	rdf:value 0.005 ;
+	qb:observation <ds6> ;
+	qb:dimension <AllIndustries> ;
+	qb:dimension <Haspermanentlyceasedtrading_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds6_12_2> rdf:type qb:Observation ;
+	rdf:value 0.228 ;
+	qb:observation <ds6> ;
+	qb:dimension <AllIndustries> ;
+	qb:dimension <Hastemporarilyclosedortemporarilypausedtrading_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+# Dataset ds7
+
+<ds7> rdf:type qb:DataSet ;
+	dc:title "Question: What is the current trading status of your enterprise? " ;
+	qb:dataSet <ds7_0_0> ;
+	qb:dataSet <ds7_0_1> ;
+	qb:dataSet <ds7_0_2> ;
+	qb:dataSet <ds7_1_0> ;
+	qb:dataSet <ds7_1_1> ;
+	qb:dataSet <ds7_1_2> ;
+	qb:dataSet <ds7_2_0> ;
+	qb:dataSet <ds7_2_1> ;
+	qb:dataSet <ds7_2_2> .
+
+# Dataset ds7's data points
+
+<ds7_0_0> rdf:type qb:Observation ;
+	rdf:value 0.748 ;
+	qb:observation <ds7> ;
+	qb:dimension <WorkforceSizeLessThan250_4> ;
+	qb:dimension <Continuingtotrade_2> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds7_0_1> rdf:type qb:Observation ;
+	rdf:value 0.005 ;
+	qb:observation <ds7> ;
+	qb:dimension <WorkforceSizeLessThan250_4> ;
+	qb:dimension <Haspermanentlyceasedtrading_2> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds7_0_2> rdf:type qb:Observation ;
+	rdf:value 0.247 ;
+	qb:observation <ds7> ;
+	qb:dimension <WorkforceSizeLessThan250_4> ;
+	qb:dimension <Hastemporarilyclosedortemporarilypausedtrading_2> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds7_1_0> rdf:type qb:Observation ;
+	rdf:value 0.798 ;
+	qb:observation <ds7> ;
+	qb:dimension <WorkforceSizeMoreThan250_4> ;
+	qb:dimension <Continuingtotrade_2> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds7_1_1> rdf:type qb:Observation ;
+	rdf:value 0.005 ;
+	qb:observation <ds7> ;
+	qb:dimension <WorkforceSizeMoreThan250_4> ;
+	qb:dimension <Haspermanentlyceasedtrading_2> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds7_1_2> rdf:type qb:Observation ;
+	rdf:value 0.197 ;
+	qb:observation <ds7> ;
+	qb:dimension <WorkforceSizeMoreThan250_4> ;
+	qb:dimension <Hastemporarilyclosedortemporarilypausedtrading_2> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds7_2_0> rdf:type qb:Observation ;
+	rdf:value 0.767 ;
+	qb:observation <ds7> ;
+	qb:dimension <AllSizeBands_4> ;
+	qb:dimension <Continuingtotrade_2> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds7_2_1> rdf:type qb:Observation ;
+	rdf:value 0.005 ;
+	qb:observation <ds7> ;
+	qb:dimension <AllSizeBands_4> ;
+	qb:dimension <Haspermanentlyceasedtrading_2> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds7_2_2> rdf:type qb:Observation ;
+	rdf:value 0.228 ;
+	qb:observation <ds7> ;
+	qb:dimension <AllSizeBands_4> ;
+	qb:dimension <Hastemporarilyclosedortemporarilypausedtrading_2> ;
+	qb:dimension <TP06to19April2020_1> .
+
+# Dataset ds8
+
+<ds8> rdf:type qb:DataSet ;
+	dc:title "Question: What is the current trading status of your enterprise? " ;
+	qb:dataSet <ds8_0_0> ;
+	qb:dataSet <ds8_0_1> ;
+	qb:dataSet <ds8_0_2> ;
+	qb:dataSet <ds8_1_0> ;
+	qb:dataSet <ds8_1_1> ;
+	qb:dataSet <ds8_1_2> ;
+	qb:dataSet <ds8_2_0> ;
+	qb:dataSet <ds8_2_1> ;
+	qb:dataSet <ds8_2_2> ;
+	qb:dataSet <ds8_3_0> ;
+	qb:dataSet <ds8_3_1> ;
+	qb:dataSet <ds8_3_2> ;
+	qb:dataSet <ds8_4_0> ;
+	qb:dataSet <ds8_4_1> ;
+	qb:dataSet <ds8_4_2> .
+
+# Dataset ds8's data points
+
+<ds8_0_0> rdf:type qb:Observation ;
+	rdf:value 0.778 ;
+	qb:observation <ds8> ;
+	qb:dimension <England> ;
+	qb:dimension <Continuingtotrade_3> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds8_0_1> rdf:type qb:Observation ;
+	rdf:value 0.004 ;
+	qb:observation <ds8> ;
+	qb:dimension <England> ;
+	qb:dimension <Haspermanentlyceasedtrading_3> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds8_0_2> rdf:type qb:Observation ;
+	rdf:value 0.218 ;
+	qb:observation <ds8> ;
+	qb:dimension <England> ;
+	qb:dimension <Hastemporarilyclosedortemporarilypausedtrading_3> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds8_1_0> rdf:type qb:Observation ;
+	rdf:value 0.762 ;
+	qb:observation <ds8> ;
+	qb:dimension <Wales> ;
+	qb:dimension <Continuingtotrade_3> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds8_1_1> rdf:type qb:Observation ;
+	rdf:value 0.011 ;
+	qb:observation <ds8> ;
+	qb:dimension <Wales> ;
+	qb:dimension <Haspermanentlyceasedtrading_3> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds8_1_2> rdf:type qb:Observation ;
+	rdf:value 0.227 ;
+	qb:observation <ds8> ;
+	qb:dimension <Wales> ;
+	qb:dimension <Hastemporarilyclosedortemporarilypausedtrading_3> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds8_2_0> rdf:type qb:Observation ;
+	rdf:value 0.776 ;
+	qb:observation <ds8> ;
+	qb:dimension <Scotland> ;
+	qb:dimension <Continuingtotrade_3> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds8_2_1> rdf:type qb:Observation ;
+	rdf:value 0.007 ;
+	qb:observation <ds8> ;
+	qb:dimension <Scotland> ;
+	qb:dimension <Haspermanentlyceasedtrading_3> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds8_2_2> rdf:type qb:Observation ;
+	rdf:value 0.217 ;
+	qb:observation <ds8> ;
+	qb:dimension <Scotland> ;
+	qb:dimension <Hastemporarilyclosedortemporarilypausedtrading_3> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds8_3_0> rdf:type qb:Observation ;
+	rdf:value 0.728 ;
+	qb:observation <ds8> ;
+	qb:dimension <NorthernIreland> ;
+	qb:dimension <Continuingtotrade_3> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds8_3_1> rdf:type qb:Observation ;
+	rdf:value 0.0 ;
+	qb:observation <ds8> ;
+	qb:dimension <NorthernIreland> ;
+	qb:dimension <Haspermanentlyceasedtrading_3> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds8_3_2> rdf:type qb:Observation ;
+	rdf:value 0.272 ;
+	qb:observation <ds8> ;
+	qb:dimension <NorthernIreland> ;
+	qb:dimension <Hastemporarilyclosedortemporarilypausedtrading_3> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds8_4_0> rdf:type qb:Observation ;
+	rdf:value 0.767 ;
+	qb:observation <ds8> ;
+	qb:dimension <UK> ;
+	qb:dimension <Continuingtotrade_3> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds8_4_1> rdf:type qb:Observation ;
+	rdf:value 0.005 ;
+	qb:observation <ds8> ;
+	qb:dimension <UK> ;
+	qb:dimension <Haspermanentlyceasedtrading_3> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds8_4_2> rdf:type qb:Observation ;
+	rdf:value 0.228 ;
+	qb:observation <ds8> ;
+	qb:dimension <UK> ;
+	qb:dimension <Hastemporarilyclosedortemporarilypausedtrading_3> ;
+	qb:dimension <TP06to19April2020_1> .
+
+# Dataset ds9
+
+<ds9> rdf:type qb:DataSet ;
+	dc:title "Question: Has your enterprise applied for any of the following initiatives?" ;
+	qb:dataSet <ds9_0_0> ;
+	qb:dataSet <ds9_0_1> ;
+	qb:dataSet <ds9_0_2> ;
+	qb:dataSet <ds9_0_3> ;
+	qb:dataSet <ds9_0_4> ;
+	qb:dataSet <ds9_0_5> ;
+	qb:dataSet <ds9_0_6> ;
+	qb:dataSet <ds9_1_0> ;
+	qb:dataSet <ds9_1_1> ;
+	qb:dataSet <ds9_1_2> ;
+	qb:dataSet <ds9_1_3> ;
+	qb:dataSet <ds9_1_4> ;
+	qb:dataSet <ds9_1_5> ;
+	qb:dataSet <ds9_1_6> ;
+	qb:dataSet <ds9_2_0> ;
+	qb:dataSet <ds9_2_1> ;
+	qb:dataSet <ds9_2_2> ;
+	qb:dataSet <ds9_2_3> ;
+	qb:dataSet <ds9_2_4> ;
+	qb:dataSet <ds9_2_5> ;
+	qb:dataSet <ds9_2_6> ;
+	qb:dataSet <ds9_3_0> ;
+	qb:dataSet <ds9_3_1> ;
+	qb:dataSet <ds9_3_2> ;
+	qb:dataSet <ds9_3_3> ;
+	qb:dataSet <ds9_3_4> ;
+	qb:dataSet <ds9_3_5> ;
+	qb:dataSet <ds9_3_6> ;
+	qb:dataSet <ds9_4_0> ;
+	qb:dataSet <ds9_4_1> ;
+	qb:dataSet <ds9_4_2> ;
+	qb:dataSet <ds9_4_3> ;
+	qb:dataSet <ds9_4_4> ;
+	qb:dataSet <ds9_4_5> ;
+	qb:dataSet <ds9_4_6> ;
+	qb:dataSet <ds9_5_0> ;
+	qb:dataSet <ds9_5_1> ;
+	qb:dataSet <ds9_5_2> ;
+	qb:dataSet <ds9_5_3> ;
+	qb:dataSet <ds9_5_4> ;
+	qb:dataSet <ds9_5_5> ;
+	qb:dataSet <ds9_5_6> ;
+	qb:dataSet <ds9_6_0> ;
+	qb:dataSet <ds9_6_1> ;
+	qb:dataSet <ds9_6_2> ;
+	qb:dataSet <ds9_6_3> ;
+	qb:dataSet <ds9_6_4> ;
+	qb:dataSet <ds9_6_5> ;
+	qb:dataSet <ds9_6_6> ;
+	qb:dataSet <ds9_7_0> ;
+	qb:dataSet <ds9_7_1> ;
+	qb:dataSet <ds9_7_2> ;
+	qb:dataSet <ds9_7_3> ;
+	qb:dataSet <ds9_7_4> ;
+	qb:dataSet <ds9_7_5> ;
+	qb:dataSet <ds9_7_6> ;
+	qb:dataSet <ds9_8_0> ;
+	qb:dataSet <ds9_8_1> ;
+	qb:dataSet <ds9_8_2> ;
+	qb:dataSet <ds9_8_3> ;
+	qb:dataSet <ds9_8_4> ;
+	qb:dataSet <ds9_8_5> ;
+	qb:dataSet <ds9_8_6> ;
+	qb:dataSet <ds9_9_0> ;
+	qb:dataSet <ds9_9_1> ;
+	qb:dataSet <ds9_9_2> ;
+	qb:dataSet <ds9_9_3> ;
+	qb:dataSet <ds9_9_4> ;
+	qb:dataSet <ds9_9_5> ;
+	qb:dataSet <ds9_9_6> ;
+	qb:dataSet <ds9_10_0> ;
+	qb:dataSet <ds9_10_1> ;
+	qb:dataSet <ds9_10_2> ;
+	qb:dataSet <ds9_10_3> ;
+	qb:dataSet <ds9_10_4> ;
+	qb:dataSet <ds9_10_5> ;
+	qb:dataSet <ds9_10_6> ;
+	qb:dataSet <ds9_11_0> ;
+	qb:dataSet <ds9_11_1> ;
+	qb:dataSet <ds9_11_2> ;
+	qb:dataSet <ds9_11_3> ;
+	qb:dataSet <ds9_11_4> ;
+	qb:dataSet <ds9_11_5> ;
+	qb:dataSet <ds9_11_6> ;
+	qb:dataSet <ds9_12_0> ;
+	qb:dataSet <ds9_12_1> ;
+	qb:dataSet <ds9_12_2> ;
+	qb:dataSet <ds9_12_3> ;
+	qb:dataSet <ds9_12_4> ;
+	qb:dataSet <ds9_12_5> ;
+	qb:dataSet <ds9_12_6> .
+
+# Dataset ds9's data points
+
+<ds9_0_0> rdf:type qb:Observation ;
+	rdf:value 0.635 ;
+	qb:observation <ds9> ;
+	qb:dimension <Manufacturing> ;
+	qb:dimension <CoronavirusJobRetentionScheme_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds9_0_1> rdf:type qb:Observation ;
+	rdf:value 0.14 ;
+	qb:observation <ds9> ;
+	qb:dimension <Manufacturing> ;
+	qb:dimension <Businessratesholiday_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds9_0_2> rdf:type qb:Observation ;
+	rdf:value 0.443 ;
+	qb:observation <ds9> ;
+	qb:dimension <Manufacturing> ;
+	qb:dimension <DeferringVATpayments_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds9_0_3> rdf:type qb:Observation ;
+	rdf:value 0.193 ;
+	qb:observation <ds9> ;
+	qb:dimension <Manufacturing> ;
+	qb:dimension <HMRCTimeToPayscheme_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds9_0_4> rdf:type qb:Observation ;
+	rdf:value 0.048 ;
+	qb:observation <ds9> ;
+	qb:dimension <Manufacturing> ;
+	qb:dimension <GovernmentBetweenfundedsmallbusinessgrantorloanschemes_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds9_0_5> rdf:type qb:Observation ;
+	rdf:value 0.086 ;
+	qb:observation <ds9> ;
+	qb:dimension <Manufacturing> ;
+	qb:dimension <Accreditedfinanceagreements_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds9_0_6> rdf:type qb:Observation ;
+	rdf:value 0.26 ;
+	qb:observation <ds9> ;
+	qb:dimension <Manufacturing> ;
+	qb:dimension <Wehavenotappliedforanyoftheseinitiatives_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds9_1_0> rdf:type qb:Observation ;
+	rdf:value 0.686 ;
+	qb:observation <ds9> ;
+	qb:dimension <WaterSupplySewerageWasteManagementAndRemediationActivities> ;
+	qb:dimension <CoronavirusJobRetentionScheme_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds9_1_1> rdf:type qb:Observation ;
+	rdf:value 0.157 ;
+	qb:observation <ds9> ;
+	qb:dimension <WaterSupplySewerageWasteManagementAndRemediationActivities> ;
+	qb:dimension <Businessratesholiday_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds9_1_2> rdf:type qb:Observation ;
+	rdf:value 0.571 ;
+	qb:observation <ds9> ;
+	qb:dimension <WaterSupplySewerageWasteManagementAndRemediationActivities> ;
+	qb:dimension <DeferringVATpayments_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds9_1_3> rdf:type qb:Observation ;
+	rdf:value 0.214 ;
+	qb:observation <ds9> ;
+	qb:dimension <WaterSupplySewerageWasteManagementAndRemediationActivities> ;
+	qb:dimension <HMRCTimeToPayscheme_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds9_1_4> rdf:type qb:Observation ;
+	rdf:value 0.057 ;
+	qb:observation <ds9> ;
+	qb:dimension <WaterSupplySewerageWasteManagementAndRemediationActivities> ;
+	qb:dimension <GovernmentBetweenfundedsmallbusinessgrantorloanschemes_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds9_1_5> rdf:type qb:Observation ;
+	rdf:value 0.1 ;
+	qb:observation <ds9> ;
+	qb:dimension <WaterSupplySewerageWasteManagementAndRemediationActivities> ;
+	qb:dimension <Accreditedfinanceagreements_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds9_1_6> rdf:type qb:Observation ;
+	rdf:value 0.214 ;
+	qb:observation <ds9> ;
+	qb:dimension <WaterSupplySewerageWasteManagementAndRemediationActivities> ;
+	qb:dimension <Wehavenotappliedforanyoftheseinitiatives_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds9_2_0> rdf:type qb:Observation ;
+	rdf:value 0.809 ;
+	qb:observation <ds9> ;
+	qb:dimension <Construction> ;
+	qb:dimension <CoronavirusJobRetentionScheme_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds9_2_1> rdf:type qb:Observation ;
+	rdf:value 0.135 ;
+	qb:observation <ds9> ;
+	qb:dimension <Construction> ;
+	qb:dimension <Businessratesholiday_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds9_2_2> rdf:type qb:Observation ;
+	rdf:value 0.599 ;
+	qb:observation <ds9> ;
+	qb:dimension <Construction> ;
+	qb:dimension <DeferringVATpayments_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds9_2_3> rdf:type qb:Observation ;
+	rdf:value 0.287 ;
+	qb:observation <ds9> ;
+	qb:dimension <Construction> ;
+	qb:dimension <HMRCTimeToPayscheme_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds9_2_4> rdf:type qb:Observation ;
+	rdf:value 0.06 ;
+	qb:observation <ds9> ;
+	qb:dimension <Construction> ;
+	qb:dimension <GovernmentBetweenfundedsmallbusinessgrantorloanschemes_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds9_2_5> rdf:type qb:Observation ;
+	rdf:value 0.096 ;
+	qb:observation <ds9> ;
+	qb:dimension <Construction> ;
+	qb:dimension <Accreditedfinanceagreements_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds9_2_6> rdf:type qb:Observation ;
+	rdf:value 0.117 ;
+	qb:observation <ds9> ;
+	qb:dimension <Construction> ;
+	qb:dimension <Wehavenotappliedforanyoftheseinitiatives_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds9_3_0> rdf:type qb:Observation ;
+	rdf:value 0.726 ;
+	qb:observation <ds9> ;
+	qb:dimension <WholesaleAndRetailTrade;RepairOfMotorVehiclesAndMotorcycles> ;
+	qb:dimension <CoronavirusJobRetentionScheme_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds9_3_1> rdf:type qb:Observation ;
+	rdf:value 0.446 ;
+	qb:observation <ds9> ;
+	qb:dimension <WholesaleAndRetailTrade;RepairOfMotorVehiclesAndMotorcycles> ;
+	qb:dimension <Businessratesholiday_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds9_3_2> rdf:type qb:Observation ;
+	rdf:value 0.601 ;
+	qb:observation <ds9> ;
+	qb:dimension <WholesaleAndRetailTrade;RepairOfMotorVehiclesAndMotorcycles> ;
+	qb:dimension <DeferringVATpayments_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds9_3_3> rdf:type qb:Observation ;
+	rdf:value 0.25 ;
+	qb:observation <ds9> ;
+	qb:dimension <WholesaleAndRetailTrade;RepairOfMotorVehiclesAndMotorcycles> ;
+	qb:dimension <HMRCTimeToPayscheme_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds9_3_4> rdf:type qb:Observation ;
+	rdf:value 0.133 ;
+	qb:observation <ds9> ;
+	qb:dimension <WholesaleAndRetailTrade;RepairOfMotorVehiclesAndMotorcycles> ;
+	qb:dimension <GovernmentBetweenfundedsmallbusinessgrantorloanschemes_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds9_3_5> rdf:type qb:Observation ;
+	rdf:value 0.09 ;
+	qb:observation <ds9> ;
+	qb:dimension <WholesaleAndRetailTrade;RepairOfMotorVehiclesAndMotorcycles> ;
+	qb:dimension <Accreditedfinanceagreements_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds9_3_6> rdf:type qb:Observation ;
+	rdf:value 0.155 ;
+	qb:observation <ds9> ;
+	qb:dimension <WholesaleAndRetailTrade;RepairOfMotorVehiclesAndMotorcycles> ;
+	qb:dimension <Wehavenotappliedforanyoftheseinitiatives_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds9_4_0> rdf:type qb:Observation ;
+	rdf:value 0.871 ;
+	qb:observation <ds9> ;
+	qb:dimension <AccommodationAndFoodServiceActivities> ;
+	qb:dimension <CoronavirusJobRetentionScheme_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds9_4_1> rdf:type qb:Observation ;
+	rdf:value 0.782 ;
+	qb:observation <ds9> ;
+	qb:dimension <AccommodationAndFoodServiceActivities> ;
+	qb:dimension <Businessratesholiday_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds9_4_2> rdf:type qb:Observation ;
+	rdf:value 0.806 ;
+	qb:observation <ds9> ;
+	qb:dimension <AccommodationAndFoodServiceActivities> ;
+	qb:dimension <DeferringVATpayments_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds9_4_3> rdf:type qb:Observation ;
+	rdf:value 0.422 ;
+	qb:observation <ds9> ;
+	qb:dimension <AccommodationAndFoodServiceActivities> ;
+	qb:dimension <HMRCTimeToPayscheme_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds9_4_4> rdf:type qb:Observation ;
+	rdf:value 0.249 ;
+	qb:observation <ds9> ;
+	qb:dimension <AccommodationAndFoodServiceActivities> ;
+	qb:dimension <GovernmentBetweenfundedsmallbusinessgrantorloanschemes_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds9_4_5> rdf:type qb:Observation ;
+	rdf:value 0.206 ;
+	qb:observation <ds9> ;
+	qb:dimension <AccommodationAndFoodServiceActivities> ;
+	qb:dimension <Accreditedfinanceagreements_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds9_4_6> rdf:type qb:Observation ;
+	rdf:value 0.027 ;
+	qb:observation <ds9> ;
+	qb:dimension <AccommodationAndFoodServiceActivities> ;
+	qb:dimension <Wehavenotappliedforanyoftheseinitiatives_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds9_5_0> rdf:type qb:Observation ;
+	rdf:value 0.766 ;
+	qb:observation <ds9> ;
+	qb:dimension <TransportationAndStorage> ;
+	qb:dimension <CoronavirusJobRetentionScheme_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds9_5_1> rdf:type qb:Observation ;
+	rdf:value 0.241 ;
+	qb:observation <ds9> ;
+	qb:dimension <TransportationAndStorage> ;
+	qb:dimension <Businessratesholiday_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds9_5_2> rdf:type qb:Observation ;
+	rdf:value 0.553 ;
+	qb:observation <ds9> ;
+	qb:dimension <TransportationAndStorage> ;
+	qb:dimension <DeferringVATpayments_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds9_5_3> rdf:type qb:Observation ;
+	rdf:value 0.248 ;
+	qb:observation <ds9> ;
+	qb:dimension <TransportationAndStorage> ;
+	qb:dimension <HMRCTimeToPayscheme_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds9_5_4> rdf:type qb:Observation ;
+	rdf:value 0.064 ;
+	qb:observation <ds9> ;
+	qb:dimension <TransportationAndStorage> ;
+	qb:dimension <GovernmentBetweenfundedsmallbusinessgrantorloanschemes_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds9_5_5> rdf:type qb:Observation ;
+	rdf:value 0.092 ;
+	qb:observation <ds9> ;
+	qb:dimension <TransportationAndStorage> ;
+	qb:dimension <Accreditedfinanceagreements_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds9_5_6> rdf:type qb:Observation ;
+	rdf:value 0.167 ;
+	qb:observation <ds9> ;
+	qb:dimension <TransportationAndStorage> ;
+	qb:dimension <Wehavenotappliedforanyoftheseinitiatives_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds9_6_0> rdf:type qb:Observation ;
+	rdf:value 0.401 ;
+	qb:observation <ds9> ;
+	qb:dimension <InformationAndCommunication> ;
+	qb:dimension <CoronavirusJobRetentionScheme_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds9_6_1> rdf:type qb:Observation ;
+	rdf:value 0.082 ;
+	qb:observation <ds9> ;
+	qb:dimension <InformationAndCommunication> ;
+	qb:dimension <Businessratesholiday_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds9_6_2> rdf:type qb:Observation ;
+	rdf:value 0.474 ;
+	qb:observation <ds9> ;
+	qb:dimension <InformationAndCommunication> ;
+	qb:dimension <DeferringVATpayments_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds9_6_3> rdf:type qb:Observation ;
+	rdf:value 0.137 ;
+	qb:observation <ds9> ;
+	qb:dimension <InformationAndCommunication> ;
+	qb:dimension <HMRCTimeToPayscheme_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds9_6_4> rdf:type qb:Observation ;
+	rdf:value 0.036 ;
+	qb:observation <ds9> ;
+	qb:dimension <InformationAndCommunication> ;
+	qb:dimension <GovernmentBetweenfundedsmallbusinessgrantorloanschemes_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds9_6_5> rdf:type qb:Observation ;
+	rdf:value 0.038 ;
+	qb:observation <ds9> ;
+	qb:dimension <InformationAndCommunication> ;
+	qb:dimension <Accreditedfinanceagreements_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds9_6_6> rdf:type qb:Observation ;
+	rdf:value 0.373 ;
+	qb:observation <ds9> ;
+	qb:dimension <InformationAndCommunication> ;
+	qb:dimension <Wehavenotappliedforanyoftheseinitiatives_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds9_7_0> rdf:type qb:Observation ;
+	rdf:value 0.622 ;
+	qb:observation <ds9> ;
+	qb:dimension <ProfessionalScientificAndTechnicalActivities> ;
+	qb:dimension <CoronavirusJobRetentionScheme_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds9_7_1> rdf:type qb:Observation ;
+	rdf:value 0.126 ;
+	qb:observation <ds9> ;
+	qb:dimension <ProfessionalScientificAndTechnicalActivities> ;
+	qb:dimension <Businessratesholiday_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds9_7_2> rdf:type qb:Observation ;
+	rdf:value 0.662 ;
+	qb:observation <ds9> ;
+	qb:dimension <ProfessionalScientificAndTechnicalActivities> ;
+	qb:dimension <DeferringVATpayments_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds9_7_3> rdf:type qb:Observation ;
+	rdf:value 0.186 ;
+	qb:observation <ds9> ;
+	qb:dimension <ProfessionalScientificAndTechnicalActivities> ;
+	qb:dimension <HMRCTimeToPayscheme_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds9_7_4> rdf:type qb:Observation ;
+	rdf:value 0.049 ;
+	qb:observation <ds9> ;
+	qb:dimension <ProfessionalScientificAndTechnicalActivities> ;
+	qb:dimension <GovernmentBetweenfundedsmallbusinessgrantorloanschemes_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds9_7_5> rdf:type qb:Observation ;
+	rdf:value 0.081 ;
+	qb:observation <ds9> ;
+	qb:dimension <ProfessionalScientificAndTechnicalActivities> ;
+	qb:dimension <Accreditedfinanceagreements_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds9_7_6> rdf:type qb:Observation ;
+	rdf:value 0.207 ;
+	qb:observation <ds9> ;
+	qb:dimension <ProfessionalScientificAndTechnicalActivities> ;
+	qb:dimension <Wehavenotappliedforanyoftheseinitiatives_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds9_8_0> rdf:type qb:Observation ;
+	rdf:value 0.757 ;
+	qb:observation <ds9> ;
+	qb:dimension <AdministrativeAndSupportServiceActivities> ;
+	qb:dimension <CoronavirusJobRetentionScheme_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds9_8_1> rdf:type qb:Observation ;
+	rdf:value 0.201 ;
+	qb:observation <ds9> ;
+	qb:dimension <AdministrativeAndSupportServiceActivities> ;
+	qb:dimension <Businessratesholiday_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds9_8_2> rdf:type qb:Observation ;
+	rdf:value 0.637 ;
+	qb:observation <ds9> ;
+	qb:dimension <AdministrativeAndSupportServiceActivities> ;
+	qb:dimension <DeferringVATpayments_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds9_8_3> rdf:type qb:Observation ;
+	rdf:value 0.205 ;
+	qb:observation <ds9> ;
+	qb:dimension <AdministrativeAndSupportServiceActivities> ;
+	qb:dimension <HMRCTimeToPayscheme_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds9_8_4> rdf:type qb:Observation ;
+	rdf:value 0.218 ;
+	qb:observation <ds9> ;
+	qb:dimension <AdministrativeAndSupportServiceActivities> ;
+	qb:dimension <GovernmentBetweenfundedsmallbusinessgrantorloanschemes_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds9_8_5> rdf:type qb:Observation ;
+	rdf:value 0.123 ;
+	qb:observation <ds9> ;
+	qb:dimension <AdministrativeAndSupportServiceActivities> ;
+	qb:dimension <Accreditedfinanceagreements_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds9_8_6> rdf:type qb:Observation ;
+	rdf:value 0.139 ;
+	qb:observation <ds9> ;
+	qb:dimension <AdministrativeAndSupportServiceActivities> ;
+	qb:dimension <Wehavenotappliedforanyoftheseinitiatives_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds9_9_0> rdf:type qb:Observation ;
+	rdf:value 0.405 ;
+	qb:observation <ds9> ;
+	qb:dimension <Education> ;
+	qb:dimension <CoronavirusJobRetentionScheme_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds9_9_1> rdf:type qb:Observation ;
+	rdf:value 0.085 ;
+	qb:observation <ds9> ;
+	qb:dimension <Education> ;
+	qb:dimension <Businessratesholiday_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds9_9_2> rdf:type qb:Observation ;
+	rdf:value 0.263 ;
+	qb:observation <ds9> ;
+	qb:dimension <Education> ;
+	qb:dimension <DeferringVATpayments_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds9_9_3> rdf:type qb:Observation ;
+	rdf:value 0.07 ;
+	qb:observation <ds9> ;
+	qb:dimension <Education> ;
+	qb:dimension <HMRCTimeToPayscheme_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds9_9_4> rdf:type qb:Observation ;
+	rdf:value 0.022 ;
+	qb:observation <ds9> ;
+	qb:dimension <Education> ;
+	qb:dimension <GovernmentBetweenfundedsmallbusinessgrantorloanschemes_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds9_9_5> rdf:type qb:Observation ;
+	rdf:value 0.028 ;
+	qb:observation <ds9> ;
+	qb:dimension <Education> ;
+	qb:dimension <Accreditedfinanceagreements_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds9_9_6> rdf:type qb:Observation ;
+	rdf:value 0.484 ;
+	qb:observation <ds9> ;
+	qb:dimension <Education> ;
+	qb:dimension <Wehavenotappliedforanyoftheseinitiatives_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds9_10_0> rdf:type qb:Observation ;
+	rdf:value 0.345 ;
+	qb:observation <ds9> ;
+	qb:dimension <HumanHealthAndSocialWorkActivities> ;
+	qb:dimension <CoronavirusJobRetentionScheme_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds9_10_1> rdf:type qb:Observation ;
+	rdf:value 0.134 ;
+	qb:observation <ds9> ;
+	qb:dimension <HumanHealthAndSocialWorkActivities> ;
+	qb:dimension <Businessratesholiday_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds9_10_2> rdf:type qb:Observation ;
+	rdf:value 0.162 ;
+	qb:observation <ds9> ;
+	qb:dimension <HumanHealthAndSocialWorkActivities> ;
+	qb:dimension <DeferringVATpayments_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds9_10_3> rdf:type qb:Observation ;
+	rdf:value 0.063 ;
+	qb:observation <ds9> ;
+	qb:dimension <HumanHealthAndSocialWorkActivities> ;
+	qb:dimension <HMRCTimeToPayscheme_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds9_10_4> rdf:type qb:Observation ;
+	rdf:value 0.106 ;
+	qb:observation <ds9> ;
+	qb:dimension <HumanHealthAndSocialWorkActivities> ;
+	qb:dimension <GovernmentBetweenfundedsmallbusinessgrantorloanschemes_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds9_10_5> rdf:type qb:Observation ;
+	rdf:value 0.028 ;
+	qb:observation <ds9> ;
+	qb:dimension <HumanHealthAndSocialWorkActivities> ;
+	qb:dimension <Accreditedfinanceagreements_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds9_10_6> rdf:type qb:Observation ;
+	rdf:value 0.556 ;
+	qb:observation <ds9> ;
+	qb:dimension <HumanHealthAndSocialWorkActivities> ;
+	qb:dimension <Wehavenotappliedforanyoftheseinitiatives_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds9_11_0> rdf:type qb:Observation ;
+	rdf:value 0.763 ;
+	qb:observation <ds9> ;
+	qb:dimension <ArtsEntertainmentAndRecreation> ;
+	qb:dimension <CoronavirusJobRetentionScheme_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds9_11_1> rdf:type qb:Observation ;
+	rdf:value 0.572 ;
+	qb:observation <ds9> ;
+	qb:dimension <ArtsEntertainmentAndRecreation> ;
+	qb:dimension <Businessratesholiday_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds9_11_2> rdf:type qb:Observation ;
+	rdf:value 0.612 ;
+	qb:observation <ds9> ;
+	qb:dimension <ArtsEntertainmentAndRecreation> ;
+	qb:dimension <DeferringVATpayments_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds9_11_3> rdf:type qb:Observation ;
+	rdf:value 0.331 ;
+	qb:observation <ds9> ;
+	qb:dimension <ArtsEntertainmentAndRecreation> ;
+	qb:dimension <HMRCTimeToPayscheme_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds9_11_4> rdf:type qb:Observation ;
+	rdf:value 0.18 ;
+	qb:observation <ds9> ;
+	qb:dimension <ArtsEntertainmentAndRecreation> ;
+	qb:dimension <GovernmentBetweenfundedsmallbusinessgrantorloanschemes_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds9_11_5> rdf:type qb:Observation ;
+	rdf:value 0.183 ;
+	qb:observation <ds9> ;
+	qb:dimension <ArtsEntertainmentAndRecreation> ;
+	qb:dimension <Accreditedfinanceagreements_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds9_11_6> rdf:type qb:Observation ;
+	rdf:value 0.126 ;
+	qb:observation <ds9> ;
+	qb:dimension <ArtsEntertainmentAndRecreation> ;
+	qb:dimension <Wehavenotappliedforanyoftheseinitiatives_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds9_12_0> rdf:type qb:Observation ;
+	rdf:value 0.672 ;
+	qb:observation <ds9> ;
+	qb:dimension <AllIndustries> ;
+	qb:dimension <CoronavirusJobRetentionScheme_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds9_12_1> rdf:type qb:Observation ;
+	rdf:value 0.274 ;
+	qb:observation <ds9> ;
+	qb:dimension <AllIndustries> ;
+	qb:dimension <Businessratesholiday_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds9_12_2> rdf:type qb:Observation ;
+	rdf:value 0.564 ;
+	qb:observation <ds9> ;
+	qb:dimension <AllIndustries> ;
+	qb:dimension <DeferringVATpayments_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds9_12_3> rdf:type qb:Observation ;
+	rdf:value 0.223 ;
+	qb:observation <ds9> ;
+	qb:dimension <AllIndustries> ;
+	qb:dimension <HMRCTimeToPayscheme_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds9_12_4> rdf:type qb:Observation ;
+	rdf:value 0.112 ;
+	qb:observation <ds9> ;
+	qb:dimension <AllIndustries> ;
+	qb:dimension <GovernmentBetweenfundedsmallbusinessgrantorloanschemes_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds9_12_5> rdf:type qb:Observation ;
+	rdf:value 0.099 ;
+	qb:observation <ds9> ;
+	qb:dimension <AllIndustries> ;
+	qb:dimension <Accreditedfinanceagreements_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds9_12_6> rdf:type qb:Observation ;
+	rdf:value 0.207 ;
+	qb:observation <ds9> ;
+	qb:dimension <AllIndustries> ;
+	qb:dimension <Wehavenotappliedforanyoftheseinitiatives_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+# Dataset ds10
+
+<ds10> rdf:type qb:DataSet ;
+	dc:title "Question: Has your enterprise applied for any of the following initiatives?" ;
+	qb:dataSet <ds10_0_0> ;
+	qb:dataSet <ds10_0_1> ;
+	qb:dataSet <ds10_0_2> ;
+	qb:dataSet <ds10_0_3> ;
+	qb:dataSet <ds10_0_4> ;
+	qb:dataSet <ds10_0_5> ;
+	qb:dataSet <ds10_0_6> ;
+	qb:dataSet <ds10_1_0> ;
+	qb:dataSet <ds10_1_1> ;
+	qb:dataSet <ds10_1_2> ;
+	qb:dataSet <ds10_1_3> ;
+	qb:dataSet <ds10_1_4> ;
+	qb:dataSet <ds10_1_5> ;
+	qb:dataSet <ds10_1_6> ;
+	qb:dataSet <ds10_2_0> ;
+	qb:dataSet <ds10_2_1> ;
+	qb:dataSet <ds10_2_2> ;
+	qb:dataSet <ds10_2_3> ;
+	qb:dataSet <ds10_2_4> ;
+	qb:dataSet <ds10_2_5> ;
+	qb:dataSet <ds10_2_6> .
+
+# Dataset ds10's data points
+
+<ds10_0_0> rdf:type qb:Observation ;
+	rdf:value 0.687 ;
+	qb:observation <ds10> ;
+	qb:dimension <WorkforceSizeLessThan250_4> ;
+	qb:dimension <CoronavirusJobRetentionScheme_2> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds10_0_1> rdf:type qb:Observation ;
+	rdf:value 0.272 ;
+	qb:observation <ds10> ;
+	qb:dimension <WorkforceSizeLessThan250_4> ;
+	qb:dimension <Businessratesholiday_2> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds10_0_2> rdf:type qb:Observation ;
+	rdf:value 0.56 ;
+	qb:observation <ds10> ;
+	qb:dimension <WorkforceSizeLessThan250_4> ;
+	qb:dimension <DeferringVATpayments_2> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds10_0_3> rdf:type qb:Observation ;
+	rdf:value 0.224 ;
+	qb:observation <ds10> ;
+	qb:dimension <WorkforceSizeLessThan250_4> ;
+	qb:dimension <HMRCTimeToPayscheme_2> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds10_0_4> rdf:type qb:Observation ;
+	rdf:value 0.135 ;
+	qb:observation <ds10> ;
+	qb:dimension <WorkforceSizeLessThan250_4> ;
+	qb:dimension <GovernmentBetweenfundedsmallbusinessgrantorloanschemes_2> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds10_0_5> rdf:type qb:Observation ;
+	rdf:value 0.112 ;
+	qb:observation <ds10> ;
+	qb:dimension <WorkforceSizeLessThan250_4> ;
+	qb:dimension <Accreditedfinanceagreements_2> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds10_0_6> rdf:type qb:Observation ;
+	rdf:value 0.198 ;
+	qb:observation <ds10> ;
+	qb:dimension <WorkforceSizeLessThan250_4> ;
+	qb:dimension <Wehavenotappliedforanyoftheseinitiatives_2> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds10_1_0> rdf:type qb:Observation ;
+	rdf:value 0.647 ;
+	qb:observation <ds10> ;
+	qb:dimension <WorkforceSizeMoreThan250_4> ;
+	qb:dimension <CoronavirusJobRetentionScheme_2> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds10_1_1> rdf:type qb:Observation ;
+	rdf:value 0.279 ;
+	qb:observation <ds10> ;
+	qb:dimension <WorkforceSizeMoreThan250_4> ;
+	qb:dimension <Businessratesholiday_2> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds10_1_2> rdf:type qb:Observation ;
+	rdf:value 0.571 ;
+	qb:observation <ds10> ;
+	qb:dimension <WorkforceSizeMoreThan250_4> ;
+	qb:dimension <DeferringVATpayments_2> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds10_1_3> rdf:type qb:Observation ;
+	rdf:value 0.222 ;
+	qb:observation <ds10> ;
+	qb:dimension <WorkforceSizeMoreThan250_4> ;
+	qb:dimension <HMRCTimeToPayscheme_2> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds10_1_4> rdf:type qb:Observation ;
+	rdf:value 0.073123 ;
+	qb:observation <ds10> ;
+	qb:dimension <WorkforceSizeMoreThan250_4> ;
+	qb:dimension <GovernmentBetweenfundedsmallbusinessgrantorloanschemes_2> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds10_1_5> rdf:type qb:Observation ;
+	rdf:value 0.079 ;
+	qb:observation <ds10> ;
+	qb:dimension <WorkforceSizeMoreThan250_4> ;
+	qb:dimension <Accreditedfinanceagreements_2> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds10_1_6> rdf:type qb:Observation ;
+	rdf:value 0.223 ;
+	qb:observation <ds10> ;
+	qb:dimension <WorkforceSizeMoreThan250_4> ;
+	qb:dimension <Wehavenotappliedforanyoftheseinitiatives_2> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds10_2_0> rdf:type qb:Observation ;
+	rdf:value 0.672 ;
+	qb:observation <ds10> ;
+	qb:dimension <AllSizeBands_4> ;
+	qb:dimension <CoronavirusJobRetentionScheme_2> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds10_2_1> rdf:type qb:Observation ;
+	rdf:value 0.274 ;
+	qb:observation <ds10> ;
+	qb:dimension <AllSizeBands_4> ;
+	qb:dimension <Businessratesholiday_2> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds10_2_2> rdf:type qb:Observation ;
+	rdf:value 0.564 ;
+	qb:observation <ds10> ;
+	qb:dimension <AllSizeBands_4> ;
+	qb:dimension <DeferringVATpayments_2> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds10_2_3> rdf:type qb:Observation ;
+	rdf:value 0.223 ;
+	qb:observation <ds10> ;
+	qb:dimension <AllSizeBands_4> ;
+	qb:dimension <HMRCTimeToPayscheme_2> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds10_2_4> rdf:type qb:Observation ;
+	rdf:value 0.112 ;
+	qb:observation <ds10> ;
+	qb:dimension <AllSizeBands_4> ;
+	qb:dimension <GovernmentBetweenfundedsmallbusinessgrantorloanschemes_2> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds10_2_5> rdf:type qb:Observation ;
+	rdf:value 0.099 ;
+	qb:observation <ds10> ;
+	qb:dimension <AllSizeBands_4> ;
+	qb:dimension <Accreditedfinanceagreements_2> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds10_2_6> rdf:type qb:Observation ;
+	rdf:value 0.207 ;
+	qb:observation <ds10> ;
+	qb:dimension <AllSizeBands_4> ;
+	qb:dimension <Wehavenotappliedforanyoftheseinitiatives_2> ;
+	qb:dimension <TP06to19April2020_1> .
+
+# Dataset ds11
+
+<ds11> rdf:type qb:DataSet ;
+	dc:title "Question: Has your enterprise applied for any of the following initiatives?" ;
+	qb:dataSet <ds11_0_0> ;
+	qb:dataSet <ds11_0_1> ;
+	qb:dataSet <ds11_0_2> ;
+	qb:dataSet <ds11_0_3> ;
+	qb:dataSet <ds11_0_4> ;
+	qb:dataSet <ds11_0_5> ;
+	qb:dataSet <ds11_0_6> ;
+	qb:dataSet <ds11_1_0> ;
+	qb:dataSet <ds11_1_1> ;
+	qb:dataSet <ds11_1_2> ;
+	qb:dataSet <ds11_1_3> ;
+	qb:dataSet <ds11_1_4> ;
+	qb:dataSet <ds11_1_5> ;
+	qb:dataSet <ds11_1_6> ;
+	qb:dataSet <ds11_2_0> ;
+	qb:dataSet <ds11_2_1> ;
+	qb:dataSet <ds11_2_2> ;
+	qb:dataSet <ds11_2_3> ;
+	qb:dataSet <ds11_2_4> ;
+	qb:dataSet <ds11_2_5> ;
+	qb:dataSet <ds11_2_6> ;
+	qb:dataSet <ds11_3_0> ;
+	qb:dataSet <ds11_3_1> ;
+	qb:dataSet <ds11_3_2> ;
+	qb:dataSet <ds11_3_3> ;
+	qb:dataSet <ds11_3_4> ;
+	qb:dataSet <ds11_3_5> ;
+	qb:dataSet <ds11_3_6> ;
+	qb:dataSet <ds11_4_0> ;
+	qb:dataSet <ds11_4_1> ;
+	qb:dataSet <ds11_4_2> ;
+	qb:dataSet <ds11_4_3> ;
+	qb:dataSet <ds11_4_4> ;
+	qb:dataSet <ds11_4_5> ;
+	qb:dataSet <ds11_4_6> .
+
+# Dataset ds11's data points
+
+<ds11_0_0> rdf:type qb:Observation ;
+	rdf:value 0.673 ;
+	qb:observation <ds11> ;
+	qb:dimension <England> ;
+	qb:dimension <CoronavirusJobRetentionScheme_3> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds11_0_1> rdf:type qb:Observation ;
+	rdf:value 0.274 ;
+	qb:observation <ds11> ;
+	qb:dimension <England> ;
+	qb:dimension <Businessratesholiday_3> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds11_0_2> rdf:type qb:Observation ;
+	rdf:value 0.573 ;
+	qb:observation <ds11> ;
+	qb:dimension <England> ;
+	qb:dimension <DeferringVATpayments_3> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds11_0_3> rdf:type qb:Observation ;
+	rdf:value 0.224 ;
+	qb:observation <ds11> ;
+	qb:dimension <England> ;
+	qb:dimension <HMRCTimeToPayscheme_3> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds11_0_4> rdf:type qb:Observation ;
+	rdf:value 0.109 ;
+	qb:observation <ds11> ;
+	qb:dimension <England> ;
+	qb:dimension <GovernmentBetweenfundedsmallbusinessgrantorloanschemes_3> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds11_0_5> rdf:type qb:Observation ;
+	rdf:value 0.097 ;
+	qb:observation <ds11> ;
+	qb:dimension <England> ;
+	qb:dimension <Accreditedfinanceagreements_3> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds11_0_6> rdf:type qb:Observation ;
+	rdf:value 0.205 ;
+	qb:observation <ds11> ;
+	qb:dimension <England> ;
+	qb:dimension <Wehavenotappliedforanyoftheseinitiatives_3> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds11_1_0> rdf:type qb:Observation ;
+	rdf:value 0.738 ;
+	qb:observation <ds11> ;
+	qb:dimension <Wales> ;
+	qb:dimension <CoronavirusJobRetentionScheme_3> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds11_1_1> rdf:type qb:Observation ;
+	rdf:value 0.387 ;
+	qb:observation <ds11> ;
+	qb:dimension <Wales> ;
+	qb:dimension <Businessratesholiday_3> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds11_1_2> rdf:type qb:Observation ;
+	rdf:value 0.651 ;
+	qb:observation <ds11> ;
+	qb:dimension <Wales> ;
+	qb:dimension <DeferringVATpayments_3> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds11_1_3> rdf:type qb:Observation ;
+	rdf:value 0.255 ;
+	qb:observation <ds11> ;
+	qb:dimension <Wales> ;
+	qb:dimension <HMRCTimeToPayscheme_3> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds11_1_4> rdf:type qb:Observation ;
+	rdf:value 0.137 ;
+	qb:observation <ds11> ;
+	qb:dimension <Wales> ;
+	qb:dimension <GovernmentBetweenfundedsmallbusinessgrantorloanschemes_3> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds11_1_5> rdf:type qb:Observation ;
+	rdf:value 0.127 ;
+	qb:observation <ds11> ;
+	qb:dimension <Wales> ;
+	qb:dimension <Accreditedfinanceagreements_3> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds11_1_6> rdf:type qb:Observation ;
+	rdf:value 0.134 ;
+	qb:observation <ds11> ;
+	qb:dimension <Wales> ;
+	qb:dimension <Wehavenotappliedforanyoftheseinitiatives_3> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds11_2_0> rdf:type qb:Observation ;
+	rdf:value 0.717 ;
+	qb:observation <ds11> ;
+	qb:dimension <Scotland> ;
+	qb:dimension <CoronavirusJobRetentionScheme_3> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds11_2_1> rdf:type qb:Observation ;
+	rdf:value 0.29 ;
+	qb:observation <ds11> ;
+	qb:dimension <Scotland> ;
+	qb:dimension <Businessratesholiday_3> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds11_2_2> rdf:type qb:Observation ;
+	rdf:value 0.63 ;
+	qb:observation <ds11> ;
+	qb:dimension <Scotland> ;
+	qb:dimension <DeferringVATpayments_3> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds11_2_3> rdf:type qb:Observation ;
+	rdf:value 0.235 ;
+	qb:observation <ds11> ;
+	qb:dimension <Scotland> ;
+	qb:dimension <HMRCTimeToPayscheme_3> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds11_2_4> rdf:type qb:Observation ;
+	rdf:value 0.075 ;
+	qb:observation <ds11> ;
+	qb:dimension <Scotland> ;
+	qb:dimension <GovernmentBetweenfundedsmallbusinessgrantorloanschemes_3> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds11_2_5> rdf:type qb:Observation ;
+	rdf:value 0.098 ;
+	qb:observation <ds11> ;
+	qb:dimension <Scotland> ;
+	qb:dimension <Accreditedfinanceagreements_3> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds11_2_6> rdf:type qb:Observation ;
+	rdf:value 0.165 ;
+	qb:observation <ds11> ;
+	qb:dimension <Scotland> ;
+	qb:dimension <Wehavenotappliedforanyoftheseinitiatives_3> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds11_3_0> rdf:type qb:Observation ;
+	rdf:value 0.652 ;
+	qb:observation <ds11> ;
+	qb:dimension <NorthernIreland> ;
+	qb:dimension <CoronavirusJobRetentionScheme_3> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds11_3_1> rdf:type qb:Observation ;
+	rdf:value 0.304 ;
+	qb:observation <ds11> ;
+	qb:dimension <NorthernIreland> ;
+	qb:dimension <Businessratesholiday_3> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds11_3_2> rdf:type qb:Observation ;
+	rdf:value 0.402 ;
+	qb:observation <ds11> ;
+	qb:dimension <NorthernIreland> ;
+	qb:dimension <DeferringVATpayments_3> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds11_3_3> rdf:type qb:Observation ;
+	rdf:value 0.13 ;
+	qb:observation <ds11> ;
+	qb:dimension <NorthernIreland> ;
+	qb:dimension <HMRCTimeToPayscheme_3> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds11_3_4> rdf:type qb:Observation ;
+	rdf:value 0.109 ;
+	qb:observation <ds11> ;
+	qb:dimension <NorthernIreland> ;
+	qb:dimension <GovernmentBetweenfundedsmallbusinessgrantorloanschemes_3> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds11_3_5> rdf:type qb:Observation ;
+	rdf:value 0.065 ;
+	qb:observation <ds11> ;
+	qb:dimension <NorthernIreland> ;
+	qb:dimension <Accreditedfinanceagreements_3> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds11_3_6> rdf:type qb:Observation ;
+	rdf:value 0.239 ;
+	qb:observation <ds11> ;
+	qb:dimension <NorthernIreland> ;
+	qb:dimension <Wehavenotappliedforanyoftheseinitiatives_3> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds11_4_0> rdf:type qb:Observation ;
+	rdf:value 0.672 ;
+	qb:observation <ds11> ;
+	qb:dimension <UK> ;
+	qb:dimension <CoronavirusJobRetentionScheme_3> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds11_4_1> rdf:type qb:Observation ;
+	rdf:value 0.274 ;
+	qb:observation <ds11> ;
+	qb:dimension <UK> ;
+	qb:dimension <Businessratesholiday_3> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds11_4_2> rdf:type qb:Observation ;
+	rdf:value 0.564 ;
+	qb:observation <ds11> ;
+	qb:dimension <UK> ;
+	qb:dimension <DeferringVATpayments_3> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds11_4_3> rdf:type qb:Observation ;
+	rdf:value 0.223 ;
+	qb:observation <ds11> ;
+	qb:dimension <UK> ;
+	qb:dimension <HMRCTimeToPayscheme_3> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds11_4_4> rdf:type qb:Observation ;
+	rdf:value 0.112 ;
+	qb:observation <ds11> ;
+	qb:dimension <UK> ;
+	qb:dimension <GovernmentBetweenfundedsmallbusinessgrantorloanschemes_3> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds11_4_5> rdf:type qb:Observation ;
+	rdf:value 0.099 ;
+	qb:observation <ds11> ;
+	qb:dimension <UK> ;
+	qb:dimension <Accreditedfinanceagreements_3> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds11_4_6> rdf:type qb:Observation ;
+	rdf:value 0.207 ;
+	qb:observation <ds11> ;
+	qb:dimension <UK> ;
+	qb:dimension <Wehavenotappliedforanyoftheseinitiatives_3> ;
+	qb:dimension <TP06to19April2020_1> .
+
+# Dataset ds12
+
+<ds12> rdf:type qb:DataSet ;
+	dc:title "Question: Of the initiatives applied for, which has your enterprise received?" ;
+	qb:dataSet <ds12_0_0> ;
+	qb:dataSet <ds12_0_1> ;
+	qb:dataSet <ds12_0_2> ;
+	qb:dataSet <ds12_0_3> ;
+	qb:dataSet <ds12_0_4> ;
+	qb:dataSet <ds12_0_5> ;
+	qb:dataSet <ds12_0_6> ;
+	qb:dataSet <ds12_1_0> ;
+	qb:dataSet <ds12_1_1> ;
+	qb:dataSet <ds12_1_2> ;
+	qb:dataSet <ds12_1_3> ;
+	qb:dataSet <ds12_1_4> ;
+	qb:dataSet <ds12_1_5> ;
+	qb:dataSet <ds12_1_6> ;
+	qb:dataSet <ds12_2_0> ;
+	qb:dataSet <ds12_2_1> ;
+	qb:dataSet <ds12_2_2> ;
+	qb:dataSet <ds12_2_3> ;
+	qb:dataSet <ds12_2_4> ;
+	qb:dataSet <ds12_2_5> ;
+	qb:dataSet <ds12_2_6> ;
+	qb:dataSet <ds12_3_0> ;
+	qb:dataSet <ds12_3_1> ;
+	qb:dataSet <ds12_3_2> ;
+	qb:dataSet <ds12_3_3> ;
+	qb:dataSet <ds12_3_4> ;
+	qb:dataSet <ds12_3_5> ;
+	qb:dataSet <ds12_3_6> ;
+	qb:dataSet <ds12_4_0> ;
+	qb:dataSet <ds12_4_1> ;
+	qb:dataSet <ds12_4_2> ;
+	qb:dataSet <ds12_4_3> ;
+	qb:dataSet <ds12_4_4> ;
+	qb:dataSet <ds12_4_5> ;
+	qb:dataSet <ds12_4_6> ;
+	qb:dataSet <ds12_5_0> ;
+	qb:dataSet <ds12_5_1> ;
+	qb:dataSet <ds12_5_2> ;
+	qb:dataSet <ds12_5_3> ;
+	qb:dataSet <ds12_5_4> ;
+	qb:dataSet <ds12_5_5> ;
+	qb:dataSet <ds12_5_6> ;
+	qb:dataSet <ds12_6_0> ;
+	qb:dataSet <ds12_6_1> ;
+	qb:dataSet <ds12_6_2> ;
+	qb:dataSet <ds12_6_3> ;
+	qb:dataSet <ds12_6_4> ;
+	qb:dataSet <ds12_6_5> ;
+	qb:dataSet <ds12_6_6> ;
+	qb:dataSet <ds12_7_0> ;
+	qb:dataSet <ds12_7_1> ;
+	qb:dataSet <ds12_7_2> ;
+	qb:dataSet <ds12_7_3> ;
+	qb:dataSet <ds12_7_4> ;
+	qb:dataSet <ds12_7_5> ;
+	qb:dataSet <ds12_7_6> ;
+	qb:dataSet <ds12_8_0> ;
+	qb:dataSet <ds12_8_1> ;
+	qb:dataSet <ds12_8_2> ;
+	qb:dataSet <ds12_8_3> ;
+	qb:dataSet <ds12_8_4> ;
+	qb:dataSet <ds12_8_5> ;
+	qb:dataSet <ds12_8_6> ;
+	qb:dataSet <ds12_9_0> ;
+	qb:dataSet <ds12_9_1> ;
+	qb:dataSet <ds12_9_2> ;
+	qb:dataSet <ds12_9_3> ;
+	qb:dataSet <ds12_9_4> ;
+	qb:dataSet <ds12_9_5> ;
+	qb:dataSet <ds12_9_6> ;
+	qb:dataSet <ds12_10_0> ;
+	qb:dataSet <ds12_10_1> ;
+	qb:dataSet <ds12_10_2> ;
+	qb:dataSet <ds12_10_3> ;
+	qb:dataSet <ds12_10_4> ;
+	qb:dataSet <ds12_10_5> ;
+	qb:dataSet <ds12_10_6> ;
+	qb:dataSet <ds12_11_0> ;
+	qb:dataSet <ds12_11_1> ;
+	qb:dataSet <ds12_11_2> ;
+	qb:dataSet <ds12_11_3> ;
+	qb:dataSet <ds12_11_4> ;
+	qb:dataSet <ds12_11_5> ;
+	qb:dataSet <ds12_11_6> ;
+	qb:dataSet <ds12_12_0> ;
+	qb:dataSet <ds12_12_1> ;
+	qb:dataSet <ds12_12_2> ;
+	qb:dataSet <ds12_12_3> ;
+	qb:dataSet <ds12_12_4> ;
+	qb:dataSet <ds12_12_5> ;
+	qb:dataSet <ds12_12_6> .
+
+# Dataset ds12's data points
+
+<ds12_0_0> rdf:type qb:Observation ;
+	rdf:value 0.199 ;
+	qb:observation <ds12> ;
+	qb:dimension <Manufacturing> ;
+	qb:dimension <CoronavirusJobRetentionScheme_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds12_0_1> rdf:type qb:Observation ;
+	rdf:value 0.079 ;
+	qb:observation <ds12> ;
+	qb:dimension <Manufacturing> ;
+	qb:dimension <Businessratesholiday_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds12_0_2> rdf:type qb:Observation ;
+	rdf:value 0.33 ;
+	qb:observation <ds12> ;
+	qb:dimension <Manufacturing> ;
+	qb:dimension <DeferringVATpayments_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds12_0_3> rdf:type qb:Observation ;
+	rdf:value 0.147 ;
+	qb:observation <ds12> ;
+	qb:dimension <Manufacturing> ;
+	qb:dimension <HMRCTimeToPayscheme_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds12_0_4> rdf:type qb:Observation ;
+	rdf:value 0.026 ;
+	qb:observation <ds12> ;
+	qb:dimension <Manufacturing> ;
+	qb:dimension <GovernmentBetweenfundedsmallbusinessgrantorloanschemes_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds12_0_5> rdf:type qb:Observation ;
+	rdf:value 0.013 ;
+	qb:observation <ds12> ;
+	qb:dimension <Manufacturing> ;
+	qb:dimension <Accreditedfinanceagreements_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds12_0_6> rdf:type qb:Observation ;
+	rdf:value 0.237 ;
+	qb:observation <ds12> ;
+	qb:dimension <Manufacturing> ;
+	qb:dimension <Wehaventreceivedanythatweappliedfor_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds12_1_0> rdf:type qb:Observation ;
+	rdf:value 0.286 ;
+	qb:observation <ds12> ;
+	qb:dimension <WaterSupplySewerageWasteManagementAndRemediationActivities> ;
+	qb:dimension <CoronavirusJobRetentionScheme_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds12_1_1> rdf:type qb:Observation ;
+	rdf:value 0.043 ;
+	qb:observation <ds12> ;
+	qb:dimension <WaterSupplySewerageWasteManagementAndRemediationActivities> ;
+	qb:dimension <Businessratesholiday_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds12_1_2> rdf:type qb:Observation ;
+	rdf:value 0.371 ;
+	qb:observation <ds12> ;
+	qb:dimension <WaterSupplySewerageWasteManagementAndRemediationActivities> ;
+	qb:dimension <DeferringVATpayments_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds12_1_3> rdf:type qb:Observation ;
+	rdf:value 0.157 ;
+	qb:observation <ds12> ;
+	qb:dimension <WaterSupplySewerageWasteManagementAndRemediationActivities> ;
+	qb:dimension <HMRCTimeToPayscheme_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds12_1_4> rdf:type qb:Observation ;
+	rdf:value 0.014 ;
+	qb:observation <ds12> ;
+	qb:dimension <WaterSupplySewerageWasteManagementAndRemediationActivities> ;
+	qb:dimension <GovernmentBetweenfundedsmallbusinessgrantorloanschemes_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds12_1_5> rdf:type qb:Observation ;
+	rdf:value 0.043 ;
+	qb:observation <ds12> ;
+	qb:dimension <WaterSupplySewerageWasteManagementAndRemediationActivities> ;
+	qb:dimension <Accreditedfinanceagreements_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds12_1_6> rdf:type qb:Observation ;
+	rdf:value 0.243 ;
+	qb:observation <ds12> ;
+	qb:dimension <WaterSupplySewerageWasteManagementAndRemediationActivities> ;
+	qb:dimension <Wehaventreceivedanythatweappliedfor_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds12_2_0> rdf:type qb:Observation ;
+	rdf:value 0.291 ;
+	qb:observation <ds12> ;
+	qb:dimension <Construction> ;
+	qb:dimension <CoronavirusJobRetentionScheme_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds12_2_1> rdf:type qb:Observation ;
+	rdf:value 0.057 ;
+	qb:observation <ds12> ;
+	qb:dimension <Construction> ;
+	qb:dimension <Businessratesholiday_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds12_2_2> rdf:type qb:Observation ;
+	rdf:value 0.443 ;
+	qb:observation <ds12> ;
+	qb:dimension <Construction> ;
+	qb:dimension <DeferringVATpayments_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds12_2_3> rdf:type qb:Observation ;
+	rdf:value 0.234 ;
+	qb:observation <ds12> ;
+	qb:dimension <Construction> ;
+	qb:dimension <HMRCTimeToPayscheme_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds12_2_4> rdf:type qb:Observation ;
+	rdf:value 0.021 ;
+	qb:observation <ds12> ;
+	qb:dimension <Construction> ;
+	qb:dimension <GovernmentBetweenfundedsmallbusinessgrantorloanschemes_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds12_2_5> rdf:type qb:Observation ;
+	rdf:value 0.018 ;
+	qb:observation <ds12> ;
+	qb:dimension <Construction> ;
+	qb:dimension <Accreditedfinanceagreements_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds12_2_6> rdf:type qb:Observation ;
+	rdf:value 0.27 ;
+	qb:observation <ds12> ;
+	qb:dimension <Construction> ;
+	qb:dimension <Wehaventreceivedanythatweappliedfor_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds12_3_0> rdf:type qb:Observation ;
+	rdf:value 0.239 ;
+	qb:observation <ds12> ;
+	qb:dimension <WholesaleAndRetailTrade;RepairOfMotorVehiclesAndMotorcycles> ;
+	qb:dimension <CoronavirusJobRetentionScheme_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds12_3_1> rdf:type qb:Observation ;
+	rdf:value 0.334 ;
+	qb:observation <ds12> ;
+	qb:dimension <WholesaleAndRetailTrade;RepairOfMotorVehiclesAndMotorcycles> ;
+	qb:dimension <Businessratesholiday_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds12_3_2> rdf:type qb:Observation ;
+	rdf:value 0.469 ;
+	qb:observation <ds12> ;
+	qb:dimension <WholesaleAndRetailTrade;RepairOfMotorVehiclesAndMotorcycles> ;
+	qb:dimension <DeferringVATpayments_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds12_3_3> rdf:type qb:Observation ;
+	rdf:value 0.183 ;
+	qb:observation <ds12> ;
+	qb:dimension <WholesaleAndRetailTrade;RepairOfMotorVehiclesAndMotorcycles> ;
+	qb:dimension <HMRCTimeToPayscheme_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds12_3_4> rdf:type qb:Observation ;
+	rdf:value 0.091 ;
+	qb:observation <ds12> ;
+	qb:dimension <WholesaleAndRetailTrade;RepairOfMotorVehiclesAndMotorcycles> ;
+	qb:dimension <GovernmentBetweenfundedsmallbusinessgrantorloanschemes_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds12_3_5> rdf:type qb:Observation ;
+	rdf:value 0.015 ;
+	qb:observation <ds12> ;
+	qb:dimension <WholesaleAndRetailTrade;RepairOfMotorVehiclesAndMotorcycles> ;
+	qb:dimension <Accreditedfinanceagreements_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds12_3_6> rdf:type qb:Observation ;
+	rdf:value 0.16 ;
+	qb:observation <ds12> ;
+	qb:dimension <WholesaleAndRetailTrade;RepairOfMotorVehiclesAndMotorcycles> ;
+	qb:dimension <Wehaventreceivedanythatweappliedfor_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds12_4_0> rdf:type qb:Observation ;
+	rdf:value 0.251 ;
+	qb:observation <ds12> ;
+	qb:dimension <AccommodationAndFoodServiceActivities> ;
+	qb:dimension <CoronavirusJobRetentionScheme_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds12_4_1> rdf:type qb:Observation ;
+	rdf:value 0.633 ;
+	qb:observation <ds12> ;
+	qb:dimension <AccommodationAndFoodServiceActivities> ;
+	qb:dimension <Businessratesholiday_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds12_4_2> rdf:type qb:Observation ;
+	rdf:value 0.596 ;
+	qb:observation <ds12> ;
+	qb:dimension <AccommodationAndFoodServiceActivities> ;
+	qb:dimension <DeferringVATpayments_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds12_4_3> rdf:type qb:Observation ;
+	rdf:value 0.306 ;
+	qb:observation <ds12> ;
+	qb:dimension <AccommodationAndFoodServiceActivities> ;
+	qb:dimension <HMRCTimeToPayscheme_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds12_4_4> rdf:type qb:Observation ;
+	rdf:value 0.178 ;
+	qb:observation <ds12> ;
+	qb:dimension <AccommodationAndFoodServiceActivities> ;
+	qb:dimension <GovernmentBetweenfundedsmallbusinessgrantorloanschemes_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds12_4_5> rdf:type qb:Observation ;
+	rdf:value 0.035 ;
+	qb:observation <ds12> ;
+	qb:dimension <AccommodationAndFoodServiceActivities> ;
+	qb:dimension <Accreditedfinanceagreements_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds12_4_6> rdf:type qb:Observation ;
+	rdf:value 0.129 ;
+	qb:observation <ds12> ;
+	qb:dimension <AccommodationAndFoodServiceActivities> ;
+	qb:dimension <Wehaventreceivedanythatweappliedfor_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds12_5_0> rdf:type qb:Observation ;
+	rdf:value 0.287 ;
+	qb:observation <ds12> ;
+	qb:dimension <TransportationAndStorage> ;
+	qb:dimension <CoronavirusJobRetentionScheme_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds12_5_1> rdf:type qb:Observation ;
+	rdf:value 0.145 ;
+	qb:observation <ds12> ;
+	qb:dimension <TransportationAndStorage> ;
+	qb:dimension <Businessratesholiday_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds12_5_2> rdf:type qb:Observation ;
+	rdf:value 0.44 ;
+	qb:observation <ds12> ;
+	qb:dimension <TransportationAndStorage> ;
+	qb:dimension <DeferringVATpayments_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds12_5_3> rdf:type qb:Observation ;
+	rdf:value 0.188 ;
+	qb:observation <ds12> ;
+	qb:dimension <TransportationAndStorage> ;
+	qb:dimension <HMRCTimeToPayscheme_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds12_5_4> rdf:type qb:Observation ;
+	rdf:value 0.025 ;
+	qb:observation <ds12> ;
+	qb:dimension <TransportationAndStorage> ;
+	qb:dimension <GovernmentBetweenfundedsmallbusinessgrantorloanschemes_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds12_5_5> rdf:type qb:Observation ;
+	rdf:value 0.025 ;
+	qb:observation <ds12> ;
+	qb:dimension <TransportationAndStorage> ;
+	qb:dimension <Accreditedfinanceagreements_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds12_5_6> rdf:type qb:Observation ;
+	rdf:value 0.184 ;
+	qb:observation <ds12> ;
+	qb:dimension <TransportationAndStorage> ;
+	qb:dimension <Wehaventreceivedanythatweappliedfor_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds12_6_0> rdf:type qb:Observation ;
+	rdf:value 0.154 ;
+	qb:observation <ds12> ;
+	qb:dimension <InformationAndCommunication> ;
+	qb:dimension <CoronavirusJobRetentionScheme_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds12_6_1> rdf:type qb:Observation ;
+	rdf:value 0.031 ;
+	qb:observation <ds12> ;
+	qb:dimension <InformationAndCommunication> ;
+	qb:dimension <Businessratesholiday_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds12_6_2> rdf:type qb:Observation ;
+	rdf:value 0.397 ;
+	qb:observation <ds12> ;
+	qb:dimension <InformationAndCommunication> ;
+	qb:dimension <DeferringVATpayments_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds12_6_3> rdf:type qb:Observation ;
+	rdf:value 0.106 ;
+	qb:observation <ds12> ;
+	qb:dimension <InformationAndCommunication> ;
+	qb:dimension <HMRCTimeToPayscheme_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds12_6_4> rdf:type qb:Observation ;
+	rdf:value 0.017 ;
+	qb:observation <ds12> ;
+	qb:dimension <InformationAndCommunication> ;
+	qb:dimension <GovernmentBetweenfundedsmallbusinessgrantorloanschemes_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds12_6_5> rdf:type qb:Observation ;
+	rdf:value 0.01 ;
+	qb:observation <ds12> ;
+	qb:dimension <InformationAndCommunication> ;
+	qb:dimension <Accreditedfinanceagreements_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds12_6_6> rdf:type qb:Observation ;
+	rdf:value 0.127 ;
+	qb:observation <ds12> ;
+	qb:dimension <InformationAndCommunication> ;
+	qb:dimension <Wehaventreceivedanythatweappliedfor_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds12_7_0> rdf:type qb:Observation ;
+	rdf:value 0.216 ;
+	qb:observation <ds12> ;
+	qb:dimension <ProfessionalScientificAndTechnicalActivities> ;
+	qb:dimension <CoronavirusJobRetentionScheme_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds12_7_1> rdf:type qb:Observation ;
+	rdf:value 0.078 ;
+	qb:observation <ds12> ;
+	qb:dimension <ProfessionalScientificAndTechnicalActivities> ;
+	qb:dimension <Businessratesholiday_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds12_7_2> rdf:type qb:Observation ;
+	rdf:value 0.518 ;
+	qb:observation <ds12> ;
+	qb:dimension <ProfessionalScientificAndTechnicalActivities> ;
+	qb:dimension <DeferringVATpayments_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds12_7_3> rdf:type qb:Observation ;
+	rdf:value 0.146 ;
+	qb:observation <ds12> ;
+	qb:dimension <ProfessionalScientificAndTechnicalActivities> ;
+	qb:dimension <HMRCTimeToPayscheme_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds12_7_4> rdf:type qb:Observation ;
+	rdf:value 0.022 ;
+	qb:observation <ds12> ;
+	qb:dimension <ProfessionalScientificAndTechnicalActivities> ;
+	qb:dimension <GovernmentBetweenfundedsmallbusinessgrantorloanschemes_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds12_7_5> rdf:type qb:Observation ;
+	rdf:value 0.023 ;
+	qb:observation <ds12> ;
+	qb:dimension <ProfessionalScientificAndTechnicalActivities> ;
+	qb:dimension <Accreditedfinanceagreements_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds12_7_6> rdf:type qb:Observation ;
+	rdf:value 0.176 ;
+	qb:observation <ds12> ;
+	qb:dimension <ProfessionalScientificAndTechnicalActivities> ;
+	qb:dimension <Wehaventreceivedanythatweappliedfor_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds12_8_0> rdf:type qb:Observation ;
+	rdf:value 0.28 ;
+	qb:observation <ds12> ;
+	qb:dimension <AdministrativeAndSupportServiceActivities> ;
+	qb:dimension <CoronavirusJobRetentionScheme_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds12_8_1> rdf:type qb:Observation ;
+	rdf:value 0.12 ;
+	qb:observation <ds12> ;
+	qb:dimension <AdministrativeAndSupportServiceActivities> ;
+	qb:dimension <Businessratesholiday_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds12_8_2> rdf:type qb:Observation ;
+	rdf:value 0.469 ;
+	qb:observation <ds12> ;
+	qb:dimension <AdministrativeAndSupportServiceActivities> ;
+	qb:dimension <DeferringVATpayments_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds12_8_3> rdf:type qb:Observation ;
+	rdf:value 0.147 ;
+	qb:observation <ds12> ;
+	qb:dimension <AdministrativeAndSupportServiceActivities> ;
+	qb:dimension <HMRCTimeToPayscheme_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds12_8_4> rdf:type qb:Observation ;
+	rdf:value 0.144 ;
+	qb:observation <ds12> ;
+	qb:dimension <AdministrativeAndSupportServiceActivities> ;
+	qb:dimension <GovernmentBetweenfundedsmallbusinessgrantorloanschemes_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds12_8_5> rdf:type qb:Observation ;
+	rdf:value 0.017 ;
+	qb:observation <ds12> ;
+	qb:dimension <AdministrativeAndSupportServiceActivities> ;
+	qb:dimension <Accreditedfinanceagreements_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds12_8_6> rdf:type qb:Observation ;
+	rdf:value 0.206 ;
+	qb:observation <ds12> ;
+	qb:dimension <AdministrativeAndSupportServiceActivities> ;
+	qb:dimension <Wehaventreceivedanythatweappliedfor_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds12_9_0> rdf:type qb:Observation ;
+	rdf:value 0.098 ;
+	qb:observation <ds12> ;
+	qb:dimension <Education> ;
+	qb:dimension <CoronavirusJobRetentionScheme_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds12_9_1> rdf:type qb:Observation ;
+	rdf:value 0.038 ;
+	qb:observation <ds12> ;
+	qb:dimension <Education> ;
+	qb:dimension <Businessratesholiday_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds12_9_2> rdf:type qb:Observation ;
+	rdf:value 0.184 ;
+	qb:observation <ds12> ;
+	qb:dimension <Education> ;
+	qb:dimension <DeferringVATpayments_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds12_9_3> rdf:type qb:Observation ;
+	rdf:value 0.057 ;
+	qb:observation <ds12> ;
+	qb:dimension <Education> ;
+	qb:dimension <HMRCTimeToPayscheme_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds12_9_4> rdf:type qb:Observation ;
+	rdf:value 0.0 ;
+	qb:observation <ds12> ;
+	qb:dimension <Education> ;
+	qb:dimension <GovernmentBetweenfundedsmallbusinessgrantorloanschemes_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds12_9_5> rdf:type qb:Observation ;
+	rdf:value 0.0 ;
+	qb:observation <ds12> ;
+	qb:dimension <Education> ;
+	qb:dimension <Accreditedfinanceagreements_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds12_9_6> rdf:type qb:Observation ;
+	rdf:value 0.228 ;
+	qb:observation <ds12> ;
+	qb:dimension <Education> ;
+	qb:dimension <Wehaventreceivedanythatweappliedfor_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds12_10_0> rdf:type qb:Observation ;
+	rdf:value 0.085 ;
+	qb:observation <ds12> ;
+	qb:dimension <HumanHealthAndSocialWorkActivities> ;
+	qb:dimension <CoronavirusJobRetentionScheme_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds12_10_1> rdf:type qb:Observation ;
+	rdf:value 0.092 ;
+	qb:observation <ds12> ;
+	qb:dimension <HumanHealthAndSocialWorkActivities> ;
+	qb:dimension <Businessratesholiday_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds12_10_2> rdf:type qb:Observation ;
+	rdf:value 0.155 ;
+	qb:observation <ds12> ;
+	qb:dimension <HumanHealthAndSocialWorkActivities> ;
+	qb:dimension <DeferringVATpayments_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds12_10_3> rdf:type qb:Observation ;
+	rdf:value 0.042 ;
+	qb:observation <ds12> ;
+	qb:dimension <HumanHealthAndSocialWorkActivities> ;
+	qb:dimension <HMRCTimeToPayscheme_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds12_10_4> rdf:type qb:Observation ;
+	rdf:value 0.07 ;
+	qb:observation <ds12> ;
+	qb:dimension <HumanHealthAndSocialWorkActivities> ;
+	qb:dimension <GovernmentBetweenfundedsmallbusinessgrantorloanschemes_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds12_10_5> rdf:type qb:Observation ;
+	rdf:value 0.0 ;
+	qb:observation <ds12> ;
+	qb:dimension <HumanHealthAndSocialWorkActivities> ;
+	qb:dimension <Accreditedfinanceagreements_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds12_10_6> rdf:type qb:Observation ;
+	rdf:value 0.141 ;
+	qb:observation <ds12> ;
+	qb:dimension <HumanHealthAndSocialWorkActivities> ;
+	qb:dimension <Wehaventreceivedanythatweappliedfor_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds12_11_0> rdf:type qb:Observation ;
+	rdf:value 0.219 ;
+	qb:observation <ds12> ;
+	qb:dimension <ArtsEntertainmentAndRecreation> ;
+	qb:dimension <CoronavirusJobRetentionScheme_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds12_11_1> rdf:type qb:Observation ;
+	rdf:value 0.45 ;
+	qb:observation <ds12> ;
+	qb:dimension <ArtsEntertainmentAndRecreation> ;
+	qb:dimension <Businessratesholiday_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds12_11_2> rdf:type qb:Observation ;
+	rdf:value 0.435 ;
+	qb:observation <ds12> ;
+	qb:dimension <ArtsEntertainmentAndRecreation> ;
+	qb:dimension <DeferringVATpayments_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds12_11_3> rdf:type qb:Observation ;
+	rdf:value 0.255 ;
+	qb:observation <ds12> ;
+	qb:dimension <ArtsEntertainmentAndRecreation> ;
+	qb:dimension <HMRCTimeToPayscheme_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds12_11_4> rdf:type qb:Observation ;
+	rdf:value 0.108 ;
+	qb:observation <ds12> ;
+	qb:dimension <ArtsEntertainmentAndRecreation> ;
+	qb:dimension <GovernmentBetweenfundedsmallbusinessgrantorloanschemes_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds12_11_5> rdf:type qb:Observation ;
+	rdf:value 0.043 ;
+	qb:observation <ds12> ;
+	qb:dimension <ArtsEntertainmentAndRecreation> ;
+	qb:dimension <Accreditedfinanceagreements_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds12_11_6> rdf:type qb:Observation ;
+	rdf:value 0.176 ;
+	qb:observation <ds12> ;
+	qb:dimension <ArtsEntertainmentAndRecreation> ;
+	qb:dimension <Wehaventreceivedanythatweappliedfor_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds12_12_0> rdf:type qb:Observation ;
+	rdf:value 0.222 ;
+	qb:observation <ds12> ;
+	qb:dimension <AllIndustries> ;
+	qb:dimension <CoronavirusJobRetentionScheme_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds12_12_1> rdf:type qb:Observation ;
+	rdf:value 0.191 ;
+	qb:observation <ds12> ;
+	qb:dimension <AllIndustries> ;
+	qb:dimension <Businessratesholiday_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds12_12_2> rdf:type qb:Observation ;
+	rdf:value 0.427 ;
+	qb:observation <ds12> ;
+	qb:dimension <AllIndustries> ;
+	qb:dimension <DeferringVATpayments_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds12_12_3> rdf:type qb:Observation ;
+	rdf:value 0.168 ;
+	qb:observation <ds12> ;
+	qb:dimension <AllIndustries> ;
+	qb:dimension <HMRCTimeToPayscheme_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds12_12_4> rdf:type qb:Observation ;
+	rdf:value 0.07 ;
+	qb:observation <ds12> ;
+	qb:dimension <AllIndustries> ;
+	qb:dimension <GovernmentBetweenfundedsmallbusinessgrantorloanschemes_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds12_12_5> rdf:type qb:Observation ;
+	rdf:value 0.018 ;
+	qb:observation <ds12> ;
+	qb:dimension <AllIndustries> ;
+	qb:dimension <Accreditedfinanceagreements_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds12_12_6> rdf:type qb:Observation ;
+	rdf:value 0.189 ;
+	qb:observation <ds12> ;
+	qb:dimension <AllIndustries> ;
+	qb:dimension <Wehaventreceivedanythatweappliedfor_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+# Dataset ds13
+
+<ds13> rdf:type qb:DataSet ;
+	dc:title "Question: Of the initiatives applied for, which has your enterprise received?" ;
+	qb:dataSet <ds13_0_0> ;
+	qb:dataSet <ds13_0_1> ;
+	qb:dataSet <ds13_0_2> ;
+	qb:dataSet <ds13_0_3> ;
+	qb:dataSet <ds13_0_4> ;
+	qb:dataSet <ds13_0_5> ;
+	qb:dataSet <ds13_0_6> ;
+	qb:dataSet <ds13_1_0> ;
+	qb:dataSet <ds13_1_1> ;
+	qb:dataSet <ds13_1_2> ;
+	qb:dataSet <ds13_1_3> ;
+	qb:dataSet <ds13_1_4> ;
+	qb:dataSet <ds13_1_5> ;
+	qb:dataSet <ds13_1_6> ;
+	qb:dataSet <ds13_2_0> ;
+	qb:dataSet <ds13_2_1> ;
+	qb:dataSet <ds13_2_2> ;
+	qb:dataSet <ds13_2_3> ;
+	qb:dataSet <ds13_2_4> ;
+	qb:dataSet <ds13_2_5> ;
+	qb:dataSet <ds13_2_6> .
+
+# Dataset ds13's data points
+
+<ds13_0_0> rdf:type qb:Observation ;
+	rdf:value 0.221 ;
+	qb:observation <ds13> ;
+	qb:dimension <WorkforceSizeLessThan250_4> ;
+	qb:dimension <CoronavirusJobRetentionScheme_2> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds13_0_1> rdf:type qb:Observation ;
+	rdf:value 0.186 ;
+	qb:observation <ds13> ;
+	qb:dimension <WorkforceSizeLessThan250_4> ;
+	qb:dimension <Businessratesholiday_2> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds13_0_2> rdf:type qb:Observation ;
+	rdf:value 0.407 ;
+	qb:observation <ds13> ;
+	qb:dimension <WorkforceSizeLessThan250_4> ;
+	qb:dimension <DeferringVATpayments_2> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds13_0_3> rdf:type qb:Observation ;
+	rdf:value 0.168 ;
+	qb:observation <ds13> ;
+	qb:dimension <WorkforceSizeLessThan250_4> ;
+	qb:dimension <HMRCTimeToPayscheme_2> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds13_0_4> rdf:type qb:Observation ;
+	rdf:value 0.085 ;
+	qb:observation <ds13> ;
+	qb:dimension <WorkforceSizeLessThan250_4> ;
+	qb:dimension <GovernmentBetweenfundedsmallbusinessgrantorloanschemes_2> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds13_0_5> rdf:type qb:Observation ;
+	rdf:value 0.023 ;
+	qb:observation <ds13> ;
+	qb:dimension <WorkforceSizeLessThan250_4> ;
+	qb:dimension <Accreditedfinanceagreements_2> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds13_0_6> rdf:type qb:Observation ;
+	rdf:value 0.205 ;
+	qb:observation <ds13> ;
+	qb:dimension <WorkforceSizeLessThan250_4> ;
+	qb:dimension <Wehaventreceivedanythatweappliedfor_2> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds13_1_0> rdf:type qb:Observation ;
+	rdf:value 0.224 ;
+	qb:observation <ds13> ;
+	qb:dimension <WorkforceSizeMoreThan250_4> ;
+	qb:dimension <CoronavirusJobRetentionScheme_2> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds13_1_1> rdf:type qb:Observation ;
+	rdf:value 0.2 ;
+	qb:observation <ds13> ;
+	qb:dimension <WorkforceSizeMoreThan250_4> ;
+	qb:dimension <Businessratesholiday_2> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds13_1_2> rdf:type qb:Observation ;
+	rdf:value 0.461 ;
+	qb:observation <ds13> ;
+	qb:dimension <WorkforceSizeMoreThan250_4> ;
+	qb:dimension <DeferringVATpayments_2> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds13_1_3> rdf:type qb:Observation ;
+	rdf:value 0.168 ;
+	qb:observation <ds13> ;
+	qb:dimension <WorkforceSizeMoreThan250_4> ;
+	qb:dimension <HMRCTimeToPayscheme_2> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds13_1_4> rdf:type qb:Observation ;
+	rdf:value 0.046 ;
+	qb:observation <ds13> ;
+	qb:dimension <WorkforceSizeMoreThan250_4> ;
+	qb:dimension <GovernmentBetweenfundedsmallbusinessgrantorloanschemes_2> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds13_1_5> rdf:type qb:Observation ;
+	rdf:value 0.011 ;
+	qb:observation <ds13> ;
+	qb:dimension <WorkforceSizeMoreThan250_4> ;
+	qb:dimension <Accreditedfinanceagreements_2> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds13_1_6> rdf:type qb:Observation ;
+	rdf:value 0.163 ;
+	qb:observation <ds13> ;
+	qb:dimension <WorkforceSizeMoreThan250_4> ;
+	qb:dimension <Wehaventreceivedanythatweappliedfor_2> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds13_2_0> rdf:type qb:Observation ;
+	rdf:value 0.222 ;
+	qb:observation <ds13> ;
+	qb:dimension <AllSizeBands_4> ;
+	qb:dimension <CoronavirusJobRetentionScheme_2> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds13_2_1> rdf:type qb:Observation ;
+	rdf:value 0.191 ;
+	qb:observation <ds13> ;
+	qb:dimension <AllSizeBands_4> ;
+	qb:dimension <Businessratesholiday_2> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds13_2_2> rdf:type qb:Observation ;
+	rdf:value 0.427 ;
+	qb:observation <ds13> ;
+	qb:dimension <AllSizeBands_4> ;
+	qb:dimension <DeferringVATpayments_2> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds13_2_3> rdf:type qb:Observation ;
+	rdf:value 0.168 ;
+	qb:observation <ds13> ;
+	qb:dimension <AllSizeBands_4> ;
+	qb:dimension <HMRCTimeToPayscheme_2> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds13_2_4> rdf:type qb:Observation ;
+	rdf:value 0.07 ;
+	qb:observation <ds13> ;
+	qb:dimension <AllSizeBands_4> ;
+	qb:dimension <GovernmentBetweenfundedsmallbusinessgrantorloanschemes_2> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds13_2_5> rdf:type qb:Observation ;
+	rdf:value 0.018 ;
+	qb:observation <ds13> ;
+	qb:dimension <AllSizeBands_4> ;
+	qb:dimension <Accreditedfinanceagreements_2> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds13_2_6> rdf:type qb:Observation ;
+	rdf:value 0.189 ;
+	qb:observation <ds13> ;
+	qb:dimension <AllSizeBands_4> ;
+	qb:dimension <Wehaventreceivedanythatweappliedfor_2> ;
+	qb:dimension <TP06to19April2020_1> .
+
+# Dataset ds14
+
+<ds14> rdf:type qb:DataSet ;
+	dc:title "Question: Is your enterprise intending to apply for any of the following initiatives?" ;
+	qb:dataSet <ds14_0_0> ;
+	qb:dataSet <ds14_0_1> ;
+	qb:dataSet <ds14_0_2> ;
+	qb:dataSet <ds14_0_3> ;
+	qb:dataSet <ds14_0_4> ;
+	qb:dataSet <ds14_0_5> ;
+	qb:dataSet <ds14_0_6> ;
+	qb:dataSet <ds14_1_0> ;
+	qb:dataSet <ds14_1_1> ;
+	qb:dataSet <ds14_1_2> ;
+	qb:dataSet <ds14_1_3> ;
+	qb:dataSet <ds14_1_4> ;
+	qb:dataSet <ds14_1_5> ;
+	qb:dataSet <ds14_1_6> ;
+	qb:dataSet <ds14_2_0> ;
+	qb:dataSet <ds14_2_1> ;
+	qb:dataSet <ds14_2_2> ;
+	qb:dataSet <ds14_2_3> ;
+	qb:dataSet <ds14_2_4> ;
+	qb:dataSet <ds14_2_5> ;
+	qb:dataSet <ds14_2_6> ;
+	qb:dataSet <ds14_3_0> ;
+	qb:dataSet <ds14_3_1> ;
+	qb:dataSet <ds14_3_2> ;
+	qb:dataSet <ds14_3_3> ;
+	qb:dataSet <ds14_3_4> ;
+	qb:dataSet <ds14_3_5> ;
+	qb:dataSet <ds14_3_6> ;
+	qb:dataSet <ds14_4_0> ;
+	qb:dataSet <ds14_4_1> ;
+	qb:dataSet <ds14_4_2> ;
+	qb:dataSet <ds14_4_3> ;
+	qb:dataSet <ds14_4_4> ;
+	qb:dataSet <ds14_4_5> ;
+	qb:dataSet <ds14_4_6> ;
+	qb:dataSet <ds14_5_0> ;
+	qb:dataSet <ds14_5_1> ;
+	qb:dataSet <ds14_5_2> ;
+	qb:dataSet <ds14_5_3> ;
+	qb:dataSet <ds14_5_4> ;
+	qb:dataSet <ds14_5_5> ;
+	qb:dataSet <ds14_5_6> ;
+	qb:dataSet <ds14_6_0> ;
+	qb:dataSet <ds14_6_1> ;
+	qb:dataSet <ds14_6_2> ;
+	qb:dataSet <ds14_6_3> ;
+	qb:dataSet <ds14_6_4> ;
+	qb:dataSet <ds14_6_5> ;
+	qb:dataSet <ds14_6_6> ;
+	qb:dataSet <ds14_7_0> ;
+	qb:dataSet <ds14_7_1> ;
+	qb:dataSet <ds14_7_2> ;
+	qb:dataSet <ds14_7_3> ;
+	qb:dataSet <ds14_7_4> ;
+	qb:dataSet <ds14_7_5> ;
+	qb:dataSet <ds14_7_6> ;
+	qb:dataSet <ds14_8_0> ;
+	qb:dataSet <ds14_8_1> ;
+	qb:dataSet <ds14_8_2> ;
+	qb:dataSet <ds14_8_3> ;
+	qb:dataSet <ds14_8_4> ;
+	qb:dataSet <ds14_8_5> ;
+	qb:dataSet <ds14_8_6> ;
+	qb:dataSet <ds14_9_0> ;
+	qb:dataSet <ds14_9_1> ;
+	qb:dataSet <ds14_9_2> ;
+	qb:dataSet <ds14_9_3> ;
+	qb:dataSet <ds14_9_4> ;
+	qb:dataSet <ds14_9_5> ;
+	qb:dataSet <ds14_9_6> ;
+	qb:dataSet <ds14_10_0> ;
+	qb:dataSet <ds14_10_1> ;
+	qb:dataSet <ds14_10_2> ;
+	qb:dataSet <ds14_10_3> ;
+	qb:dataSet <ds14_10_4> ;
+	qb:dataSet <ds14_10_5> ;
+	qb:dataSet <ds14_10_6> ;
+	qb:dataSet <ds14_11_0> ;
+	qb:dataSet <ds14_11_1> ;
+	qb:dataSet <ds14_11_2> ;
+	qb:dataSet <ds14_11_3> ;
+	qb:dataSet <ds14_11_4> ;
+	qb:dataSet <ds14_11_5> ;
+	qb:dataSet <ds14_11_6> ;
+	qb:dataSet <ds14_12_0> ;
+	qb:dataSet <ds14_12_1> ;
+	qb:dataSet <ds14_12_2> ;
+	qb:dataSet <ds14_12_3> ;
+	qb:dataSet <ds14_12_4> ;
+	qb:dataSet <ds14_12_5> ;
+	qb:dataSet <ds14_12_6> .
+
+# Dataset ds14's data points
+
+<ds14_0_0> rdf:type qb:Observation ;
+	rdf:value 0.383 ;
+	qb:observation <ds14> ;
+	qb:dimension <Manufacturing> ;
+	qb:dimension <CoronavirusJobRetentionScheme_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds14_0_1> rdf:type qb:Observation ;
+	rdf:value 0.081 ;
+	qb:observation <ds14> ;
+	qb:dimension <Manufacturing> ;
+	qb:dimension <Businessratesholiday_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds14_0_2> rdf:type qb:Observation ;
+	rdf:value 0.167 ;
+	qb:observation <ds14> ;
+	qb:dimension <Manufacturing> ;
+	qb:dimension <DeferringVATpayments_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds14_0_3> rdf:type qb:Observation ;
+	rdf:value 0.092 ;
+	qb:observation <ds14> ;
+	qb:dimension <Manufacturing> ;
+	qb:dimension <HMRCTimeToPayscheme_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds14_0_4> rdf:type qb:Observation ;
+	rdf:value 0.028 ;
+	qb:observation <ds14> ;
+	qb:dimension <Manufacturing> ;
+	qb:dimension <GovernmentBetweenfundedsmallbusinessgrantorloanschemes_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds14_0_5> rdf:type qb:Observation ;
+	rdf:value 0.066 ;
+	qb:observation <ds14> ;
+	qb:dimension <Manufacturing> ;
+	qb:dimension <Accreditedfinanceagreements_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds14_0_6> rdf:type qb:Observation ;
+	rdf:value 0.481 ;
+	qb:observation <ds14> ;
+	qb:dimension <Manufacturing> ;
+	qb:dimension <Noneoftheabove_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds14_1_0> rdf:type qb:Observation ;
+	rdf:value 0.386 ;
+	qb:observation <ds14> ;
+	qb:dimension <WaterSupplySewerageWasteManagementAndRemediationActivities> ;
+	qb:dimension <CoronavirusJobRetentionScheme_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds14_1_1> rdf:type qb:Observation ;
+	rdf:value 0.071 ;
+	qb:observation <ds14> ;
+	qb:dimension <WaterSupplySewerageWasteManagementAndRemediationActivities> ;
+	qb:dimension <Businessratesholiday_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds14_1_2> rdf:type qb:Observation ;
+	rdf:value 0.229 ;
+	qb:observation <ds14> ;
+	qb:dimension <WaterSupplySewerageWasteManagementAndRemediationActivities> ;
+	qb:dimension <DeferringVATpayments_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds14_1_3> rdf:type qb:Observation ;
+	rdf:value 0.143 ;
+	qb:observation <ds14> ;
+	qb:dimension <WaterSupplySewerageWasteManagementAndRemediationActivities> ;
+	qb:dimension <HMRCTimeToPayscheme_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds14_1_4> rdf:type qb:Observation ;
+	rdf:value 0.029 ;
+	qb:observation <ds14> ;
+	qb:dimension <WaterSupplySewerageWasteManagementAndRemediationActivities> ;
+	qb:dimension <GovernmentBetweenfundedsmallbusinessgrantorloanschemes_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds14_1_5> rdf:type qb:Observation ;
+	rdf:value 0.071 ;
+	qb:observation <ds14> ;
+	qb:dimension <WaterSupplySewerageWasteManagementAndRemediationActivities> ;
+	qb:dimension <Accreditedfinanceagreements_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds14_1_6> rdf:type qb:Observation ;
+	rdf:value 0.457 ;
+	qb:observation <ds14> ;
+	qb:dimension <WaterSupplySewerageWasteManagementAndRemediationActivities> ;
+	qb:dimension <Noneoftheabove_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds14_2_0> rdf:type qb:Observation ;
+	rdf:value 0.429 ;
+	qb:observation <ds14> ;
+	qb:dimension <Construction> ;
+	qb:dimension <CoronavirusJobRetentionScheme_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds14_2_1> rdf:type qb:Observation ;
+	rdf:value 0.032 ;
+	qb:observation <ds14> ;
+	qb:dimension <Construction> ;
+	qb:dimension <Businessratesholiday_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds14_2_2> rdf:type qb:Observation ;
+	rdf:value 0.174 ;
+	qb:observation <ds14> ;
+	qb:dimension <Construction> ;
+	qb:dimension <DeferringVATpayments_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds14_2_3> rdf:type qb:Observation ;
+	rdf:value 0.096 ;
+	qb:observation <ds14> ;
+	qb:dimension <Construction> ;
+	qb:dimension <HMRCTimeToPayscheme_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds14_2_4> rdf:type qb:Observation ;
+	rdf:value 0.05 ;
+	qb:observation <ds14> ;
+	qb:dimension <Construction> ;
+	qb:dimension <GovernmentBetweenfundedsmallbusinessgrantorloanschemes_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds14_2_5> rdf:type qb:Observation ;
+	rdf:value 0.11 ;
+	qb:observation <ds14> ;
+	qb:dimension <Construction> ;
+	qb:dimension <Accreditedfinanceagreements_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds14_2_6> rdf:type qb:Observation ;
+	rdf:value 0.422 ;
+	qb:observation <ds14> ;
+	qb:dimension <Construction> ;
+	qb:dimension <Noneoftheabove_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds14_3_0> rdf:type qb:Observation ;
+	rdf:value 0.321 ;
+	qb:observation <ds14> ;
+	qb:dimension <WholesaleAndRetailTrade;RepairOfMotorVehiclesAndMotorcycles> ;
+	qb:dimension <CoronavirusJobRetentionScheme_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds14_3_1> rdf:type qb:Observation ;
+	rdf:value 0.093 ;
+	qb:observation <ds14> ;
+	qb:dimension <WholesaleAndRetailTrade;RepairOfMotorVehiclesAndMotorcycles> ;
+	qb:dimension <Businessratesholiday_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds14_3_2> rdf:type qb:Observation ;
+	rdf:value 0.158 ;
+	qb:observation <ds14> ;
+	qb:dimension <WholesaleAndRetailTrade;RepairOfMotorVehiclesAndMotorcycles> ;
+	qb:dimension <DeferringVATpayments_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds14_3_3> rdf:type qb:Observation ;
+	rdf:value 0.076 ;
+	qb:observation <ds14> ;
+	qb:dimension <WholesaleAndRetailTrade;RepairOfMotorVehiclesAndMotorcycles> ;
+	qb:dimension <HMRCTimeToPayscheme_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds14_3_4> rdf:type qb:Observation ;
+	rdf:value 0.042 ;
+	qb:observation <ds14> ;
+	qb:dimension <WholesaleAndRetailTrade;RepairOfMotorVehiclesAndMotorcycles> ;
+	qb:dimension <GovernmentBetweenfundedsmallbusinessgrantorloanschemes_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds14_3_5> rdf:type qb:Observation ;
+	rdf:value 0.083 ;
+	qb:observation <ds14> ;
+	qb:dimension <WholesaleAndRetailTrade;RepairOfMotorVehiclesAndMotorcycles> ;
+	qb:dimension <Accreditedfinanceagreements_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds14_3_6> rdf:type qb:Observation ;
+	rdf:value 0.538 ;
+	qb:observation <ds14> ;
+	qb:dimension <WholesaleAndRetailTrade;RepairOfMotorVehiclesAndMotorcycles> ;
+	qb:dimension <Noneoftheabove_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds14_4_0> rdf:type qb:Observation ;
+	rdf:value 0.404 ;
+	qb:observation <ds14> ;
+	qb:dimension <AccommodationAndFoodServiceActivities> ;
+	qb:dimension <CoronavirusJobRetentionScheme_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds14_4_1> rdf:type qb:Observation ;
+	rdf:value 0.18 ;
+	qb:observation <ds14> ;
+	qb:dimension <AccommodationAndFoodServiceActivities> ;
+	qb:dimension <Businessratesholiday_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds14_4_2> rdf:type qb:Observation ;
+	rdf:value 0.235 ;
+	qb:observation <ds14> ;
+	qb:dimension <AccommodationAndFoodServiceActivities> ;
+	qb:dimension <DeferringVATpayments_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds14_4_3> rdf:type qb:Observation ;
+	rdf:value 0.137 ;
+	qb:observation <ds14> ;
+	qb:dimension <AccommodationAndFoodServiceActivities> ;
+	qb:dimension <HMRCTimeToPayscheme_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds14_4_4> rdf:type qb:Observation ;
+	rdf:value 0.061 ;
+	qb:observation <ds14> ;
+	qb:dimension <AccommodationAndFoodServiceActivities> ;
+	qb:dimension <GovernmentBetweenfundedsmallbusinessgrantorloanschemes_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds14_4_5> rdf:type qb:Observation ;
+	rdf:value 0.122 ;
+	qb:observation <ds14> ;
+	qb:dimension <AccommodationAndFoodServiceActivities> ;
+	qb:dimension <Accreditedfinanceagreements_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds14_4_6> rdf:type qb:Observation ;
+	rdf:value 0.398 ;
+	qb:observation <ds14> ;
+	qb:dimension <AccommodationAndFoodServiceActivities> ;
+	qb:dimension <Noneoftheabove_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds14_5_0> rdf:type qb:Observation ;
+	rdf:value 0.355 ;
+	qb:observation <ds14> ;
+	qb:dimension <TransportationAndStorage> ;
+	qb:dimension <CoronavirusJobRetentionScheme_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds14_5_1> rdf:type qb:Observation ;
+	rdf:value 0.096 ;
+	qb:observation <ds14> ;
+	qb:dimension <TransportationAndStorage> ;
+	qb:dimension <Businessratesholiday_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds14_5_2> rdf:type qb:Observation ;
+	rdf:value 0.199 ;
+	qb:observation <ds14> ;
+	qb:dimension <TransportationAndStorage> ;
+	qb:dimension <DeferringVATpayments_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds14_5_3> rdf:type qb:Observation ;
+	rdf:value 0.078 ;
+	qb:observation <ds14> ;
+	qb:dimension <TransportationAndStorage> ;
+	qb:dimension <HMRCTimeToPayscheme_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds14_5_4> rdf:type qb:Observation ;
+	rdf:value 0.021 ;
+	qb:observation <ds14> ;
+	qb:dimension <TransportationAndStorage> ;
+	qb:dimension <GovernmentBetweenfundedsmallbusinessgrantorloanschemes_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds14_5_5> rdf:type qb:Observation ;
+	rdf:value 0.074 ;
+	qb:observation <ds14> ;
+	qb:dimension <TransportationAndStorage> ;
+	qb:dimension <Accreditedfinanceagreements_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds14_5_6> rdf:type qb:Observation ;
+	rdf:value 0.489 ;
+	qb:observation <ds14> ;
+	qb:dimension <TransportationAndStorage> ;
+	qb:dimension <Noneoftheabove_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds14_6_0> rdf:type qb:Observation ;
+	rdf:value 0.26 ;
+	qb:observation <ds14> ;
+	qb:dimension <InformationAndCommunication> ;
+	qb:dimension <CoronavirusJobRetentionScheme_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds14_6_1> rdf:type qb:Observation ;
+	rdf:value 0.07 ;
+	qb:observation <ds14> ;
+	qb:dimension <InformationAndCommunication> ;
+	qb:dimension <Businessratesholiday_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds14_6_2> rdf:type qb:Observation ;
+	rdf:value 0.163 ;
+	qb:observation <ds14> ;
+	qb:dimension <InformationAndCommunication> ;
+	qb:dimension <DeferringVATpayments_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds14_6_3> rdf:type qb:Observation ;
+	rdf:value 0.067 ;
+	qb:observation <ds14> ;
+	qb:dimension <InformationAndCommunication> ;
+	qb:dimension <HMRCTimeToPayscheme_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds14_6_4> rdf:type qb:Observation ;
+	rdf:value 0.029 ;
+	qb:observation <ds14> ;
+	qb:dimension <InformationAndCommunication> ;
+	qb:dimension <GovernmentBetweenfundedsmallbusinessgrantorloanschemes_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds14_6_5> rdf:type qb:Observation ;
+	rdf:value 0.05 ;
+	qb:observation <ds14> ;
+	qb:dimension <InformationAndCommunication> ;
+	qb:dimension <Accreditedfinanceagreements_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds14_6_6> rdf:type qb:Observation ;
+	rdf:value 0.587 ;
+	qb:observation <ds14> ;
+	qb:dimension <InformationAndCommunication> ;
+	qb:dimension <Noneoftheabove_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds14_7_0> rdf:type qb:Observation ;
+	rdf:value 0.35 ;
+	qb:observation <ds14> ;
+	qb:dimension <ProfessionalScientificAndTechnicalActivities> ;
+	qb:dimension <CoronavirusJobRetentionScheme_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds14_7_1> rdf:type qb:Observation ;
+	rdf:value 0.073 ;
+	qb:observation <ds14> ;
+	qb:dimension <ProfessionalScientificAndTechnicalActivities> ;
+	qb:dimension <Businessratesholiday_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds14_7_2> rdf:type qb:Observation ;
+	rdf:value 0.228 ;
+	qb:observation <ds14> ;
+	qb:dimension <ProfessionalScientificAndTechnicalActivities> ;
+	qb:dimension <DeferringVATpayments_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds14_7_3> rdf:type qb:Observation ;
+	rdf:value 0.083 ;
+	qb:observation <ds14> ;
+	qb:dimension <ProfessionalScientificAndTechnicalActivities> ;
+	qb:dimension <HMRCTimeToPayscheme_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds14_7_4> rdf:type qb:Observation ;
+	rdf:value 0.023 ;
+	qb:observation <ds14> ;
+	qb:dimension <ProfessionalScientificAndTechnicalActivities> ;
+	qb:dimension <GovernmentBetweenfundedsmallbusinessgrantorloanschemes_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds14_7_5> rdf:type qb:Observation ;
+	rdf:value 0.074 ;
+	qb:observation <ds14> ;
+	qb:dimension <ProfessionalScientificAndTechnicalActivities> ;
+	qb:dimension <Accreditedfinanceagreements_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds14_7_6> rdf:type qb:Observation ;
+	rdf:value 0.503 ;
+	qb:observation <ds14> ;
+	qb:dimension <ProfessionalScientificAndTechnicalActivities> ;
+	qb:dimension <Noneoftheabove_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds14_8_0> rdf:type qb:Observation ;
+	rdf:value 0.401 ;
+	qb:observation <ds14> ;
+	qb:dimension <AdministrativeAndSupportServiceActivities> ;
+	qb:dimension <CoronavirusJobRetentionScheme_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds14_8_1> rdf:type qb:Observation ;
+	rdf:value 0.089 ;
+	qb:observation <ds14> ;
+	qb:dimension <AdministrativeAndSupportServiceActivities> ;
+	qb:dimension <Businessratesholiday_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds14_8_2> rdf:type qb:Observation ;
+	rdf:value 0.227 ;
+	qb:observation <ds14> ;
+	qb:dimension <AdministrativeAndSupportServiceActivities> ;
+	qb:dimension <DeferringVATpayments_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds14_8_3> rdf:type qb:Observation ;
+	rdf:value 0.102 ;
+	qb:observation <ds14> ;
+	qb:dimension <AdministrativeAndSupportServiceActivities> ;
+	qb:dimension <HMRCTimeToPayscheme_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds14_8_4> rdf:type qb:Observation ;
+	rdf:value 0.063 ;
+	qb:observation <ds14> ;
+	qb:dimension <AdministrativeAndSupportServiceActivities> ;
+	qb:dimension <GovernmentBetweenfundedsmallbusinessgrantorloanschemes_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds14_8_5> rdf:type qb:Observation ;
+	rdf:value 0.09 ;
+	qb:observation <ds14> ;
+	qb:dimension <AdministrativeAndSupportServiceActivities> ;
+	qb:dimension <Accreditedfinanceagreements_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds14_8_6> rdf:type qb:Observation ;
+	rdf:value 0.45 ;
+	qb:observation <ds14> ;
+	qb:dimension <AdministrativeAndSupportServiceActivities> ;
+	qb:dimension <Noneoftheabove_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds14_9_0> rdf:type qb:Observation ;
+	rdf:value 0.459 ;
+	qb:observation <ds14> ;
+	qb:dimension <Education> ;
+	qb:dimension <CoronavirusJobRetentionScheme_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds14_9_1> rdf:type qb:Observation ;
+	rdf:value 0.098 ;
+	qb:observation <ds14> ;
+	qb:dimension <Education> ;
+	qb:dimension <Businessratesholiday_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds14_9_2> rdf:type qb:Observation ;
+	rdf:value 0.174 ;
+	qb:observation <ds14> ;
+	qb:dimension <Education> ;
+	qb:dimension <DeferringVATpayments_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds14_9_3> rdf:type qb:Observation ;
+	rdf:value 0.022 ;
+	qb:observation <ds14> ;
+	qb:dimension <Education> ;
+	qb:dimension <HMRCTimeToPayscheme_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds14_9_4> rdf:type qb:Observation ;
+	rdf:value 0.0 ;
+	qb:observation <ds14> ;
+	qb:dimension <Education> ;
+	qb:dimension <GovernmentBetweenfundedsmallbusinessgrantorloanschemes_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds14_9_5> rdf:type qb:Observation ;
+	rdf:value 0.066 ;
+	qb:observation <ds14> ;
+	qb:dimension <Education> ;
+	qb:dimension <Accreditedfinanceagreements_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds14_9_6> rdf:type qb:Observation ;
+	rdf:value 0.421 ;
+	qb:observation <ds14> ;
+	qb:dimension <Education> ;
+	qb:dimension <Noneoftheabove_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds14_10_0> rdf:type qb:Observation ;
+	rdf:value 0.31 ;
+	qb:observation <ds14> ;
+	qb:dimension <HumanHealthAndSocialWorkActivities> ;
+	qb:dimension <CoronavirusJobRetentionScheme_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds14_10_1> rdf:type qb:Observation ;
+	rdf:value 0.042 ;
+	qb:observation <ds14> ;
+	qb:dimension <HumanHealthAndSocialWorkActivities> ;
+	qb:dimension <Businessratesholiday_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds14_10_2> rdf:type qb:Observation ;
+	rdf:value 0.099 ;
+	qb:observation <ds14> ;
+	qb:dimension <HumanHealthAndSocialWorkActivities> ;
+	qb:dimension <DeferringVATpayments_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds14_10_3> rdf:type qb:Observation ;
+	rdf:value 0.056 ;
+	qb:observation <ds14> ;
+	qb:dimension <HumanHealthAndSocialWorkActivities> ;
+	qb:dimension <HMRCTimeToPayscheme_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds14_10_4> rdf:type qb:Observation ;
+	rdf:value 0.035 ;
+	qb:observation <ds14> ;
+	qb:dimension <HumanHealthAndSocialWorkActivities> ;
+	qb:dimension <GovernmentBetweenfundedsmallbusinessgrantorloanschemes_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds14_10_5> rdf:type qb:Observation ;
+	rdf:value 0.014 ;
+	qb:observation <ds14> ;
+	qb:dimension <HumanHealthAndSocialWorkActivities> ;
+	qb:dimension <Accreditedfinanceagreements_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds14_10_6> rdf:type qb:Observation ;
+	rdf:value 0.585 ;
+	qb:observation <ds14> ;
+	qb:dimension <HumanHealthAndSocialWorkActivities> ;
+	qb:dimension <Noneoftheabove_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds14_11_0> rdf:type qb:Observation ;
+	rdf:value 0.41 ;
+	qb:observation <ds14> ;
+	qb:dimension <ArtsEntertainmentAndRecreation> ;
+	qb:dimension <CoronavirusJobRetentionScheme_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds14_11_1> rdf:type qb:Observation ;
+	rdf:value 0.122 ;
+	qb:observation <ds14> ;
+	qb:dimension <ArtsEntertainmentAndRecreation> ;
+	qb:dimension <Businessratesholiday_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds14_11_2> rdf:type qb:Observation ;
+	rdf:value 0.212 ;
+	qb:observation <ds14> ;
+	qb:dimension <ArtsEntertainmentAndRecreation> ;
+	qb:dimension <DeferringVATpayments_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds14_11_3> rdf:type qb:Observation ;
+	rdf:value 0.104 ;
+	qb:observation <ds14> ;
+	qb:dimension <ArtsEntertainmentAndRecreation> ;
+	qb:dimension <HMRCTimeToPayscheme_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds14_11_4> rdf:type qb:Observation ;
+	rdf:value 0.058 ;
+	qb:observation <ds14> ;
+	qb:dimension <ArtsEntertainmentAndRecreation> ;
+	qb:dimension <GovernmentBetweenfundedsmallbusinessgrantorloanschemes_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds14_11_5> rdf:type qb:Observation ;
+	rdf:value 0.108 ;
+	qb:observation <ds14> ;
+	qb:dimension <ArtsEntertainmentAndRecreation> ;
+	qb:dimension <Accreditedfinanceagreements_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds14_11_6> rdf:type qb:Observation ;
+	rdf:value 0.392 ;
+	qb:observation <ds14> ;
+	qb:dimension <ArtsEntertainmentAndRecreation> ;
+	qb:dimension <Noneoftheabove_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds14_12_0> rdf:type qb:Observation ;
+	rdf:value 0.368 ;
+	qb:observation <ds14> ;
+	qb:dimension <AllIndustries> ;
+	qb:dimension <CoronavirusJobRetentionScheme_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds14_12_1> rdf:type qb:Observation ;
+	rdf:value 0.091 ;
+	qb:observation <ds14> ;
+	qb:dimension <AllIndustries> ;
+	qb:dimension <Businessratesholiday_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds14_12_2> rdf:type qb:Observation ;
+	rdf:value 0.19 ;
+	qb:observation <ds14> ;
+	qb:dimension <AllIndustries> ;
+	qb:dimension <DeferringVATpayments_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds14_12_3> rdf:type qb:Observation ;
+	rdf:value 0.088 ;
+	qb:observation <ds14> ;
+	qb:dimension <AllIndustries> ;
+	qb:dimension <HMRCTimeToPayscheme_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds14_12_4> rdf:type qb:Observation ;
+	rdf:value 0.039 ;
+	qb:observation <ds14> ;
+	qb:dimension <AllIndustries> ;
+	qb:dimension <GovernmentBetweenfundedsmallbusinessgrantorloanschemes_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds14_12_5> rdf:type qb:Observation ;
+	rdf:value 0.08 ;
+	qb:observation <ds14> ;
+	qb:dimension <AllIndustries> ;
+	qb:dimension <Accreditedfinanceagreements_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds14_12_6> rdf:type qb:Observation ;
+	rdf:value 0.482 ;
+	qb:observation <ds14> ;
+	qb:dimension <AllIndustries> ;
+	qb:dimension <Noneoftheabove_1> ;
+	qb:dimension <TP06to19April2020_1> .
+
+# Dataset ds15
+
+<ds15> rdf:type qb:DataSet ;
+	dc:title "Question: Is your enterprise intending to apply for any of the following initiatives?" ;
+	qb:dataSet <ds15_0_0> ;
+	qb:dataSet <ds15_0_1> ;
+	qb:dataSet <ds15_0_2> ;
+	qb:dataSet <ds15_0_3> ;
+	qb:dataSet <ds15_0_4> ;
+	qb:dataSet <ds15_0_5> ;
+	qb:dataSet <ds15_0_6> ;
+	qb:dataSet <ds15_1_0> ;
+	qb:dataSet <ds15_1_1> ;
+	qb:dataSet <ds15_1_2> ;
+	qb:dataSet <ds15_1_3> ;
+	qb:dataSet <ds15_1_4> ;
+	qb:dataSet <ds15_1_5> ;
+	qb:dataSet <ds15_1_6> ;
+	qb:dataSet <ds15_2_0> ;
+	qb:dataSet <ds15_2_1> ;
+	qb:dataSet <ds15_2_2> ;
+	qb:dataSet <ds15_2_3> ;
+	qb:dataSet <ds15_2_4> ;
+	qb:dataSet <ds15_2_5> ;
+	qb:dataSet <ds15_2_6> .
+
+# Dataset ds15's data points
+
+<ds15_0_0> rdf:type qb:Observation ;
+	rdf:value 0.367 ;
+	qb:observation <ds15> ;
+	qb:dimension <WorkforceSizeLessThan250_4> ;
+	qb:dimension <CoronavirusJobRetentionScheme_2> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds15_0_1> rdf:type qb:Observation ;
+	rdf:value 0.089 ;
+	qb:observation <ds15> ;
+	qb:dimension <WorkforceSizeLessThan250_4> ;
+	qb:dimension <Businessratesholiday_2> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds15_0_2> rdf:type qb:Observation ;
+	rdf:value 0.202 ;
+	qb:observation <ds15> ;
+	qb:dimension <WorkforceSizeLessThan250_4> ;
+	qb:dimension <DeferringVATpayments_2> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds15_0_3> rdf:type qb:Observation ;
+	rdf:value 0.094 ;
+	qb:observation <ds15> ;
+	qb:dimension <WorkforceSizeLessThan250_4> ;
+	qb:dimension <HMRCTimeToPayscheme_2> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds15_0_4> rdf:type qb:Observation ;
+	rdf:value 0.046 ;
+	qb:observation <ds15> ;
+	qb:dimension <WorkforceSizeLessThan250_4> ;
+	qb:dimension <GovernmentBetweenfundedsmallbusinessgrantorloanschemes_2> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds15_0_5> rdf:type qb:Observation ;
+	rdf:value 0.085 ;
+	qb:observation <ds15> ;
+	qb:dimension <WorkforceSizeLessThan250_4> ;
+	qb:dimension <Accreditedfinanceagreements_2> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds15_0_6> rdf:type qb:Observation ;
+	rdf:value 0.48 ;
+	qb:observation <ds15> ;
+	qb:dimension <WorkforceSizeLessThan250_4> ;
+	qb:dimension <Noneoftheabove_2> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds15_1_0> rdf:type qb:Observation ;
+	rdf:value 0.37 ;
+	qb:observation <ds15> ;
+	qb:dimension <WorkforceSizeMoreThan250_4> ;
+	qb:dimension <CoronavirusJobRetentionScheme_2> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds15_1_1> rdf:type qb:Observation ;
+	rdf:value 0.094 ;
+	qb:observation <ds15> ;
+	qb:dimension <WorkforceSizeMoreThan250_4> ;
+	qb:dimension <Businessratesholiday_2> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds15_1_2> rdf:type qb:Observation ;
+	rdf:value 0.169 ;
+	qb:observation <ds15> ;
+	qb:dimension <WorkforceSizeMoreThan250_4> ;
+	qb:dimension <DeferringVATpayments_2> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds15_1_3> rdf:type qb:Observation ;
+	rdf:value 0.078 ;
+	qb:observation <ds15> ;
+	qb:dimension <WorkforceSizeMoreThan250_4> ;
+	qb:dimension <HMRCTimeToPayscheme_2> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds15_1_4> rdf:type qb:Observation ;
+	rdf:value 0.027 ;
+	qb:observation <ds15> ;
+	qb:dimension <WorkforceSizeMoreThan250_4> ;
+	qb:dimension <GovernmentBetweenfundedsmallbusinessgrantorloanschemes_2> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds15_1_5> rdf:type qb:Observation ;
+	rdf:value 0.072 ;
+	qb:observation <ds15> ;
+	qb:dimension <WorkforceSizeMoreThan250_4> ;
+	qb:dimension <Accreditedfinanceagreements_2> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds15_1_6> rdf:type qb:Observation ;
+	rdf:value 0.486 ;
+	qb:observation <ds15> ;
+	qb:dimension <WorkforceSizeMoreThan250_4> ;
+	qb:dimension <Noneoftheabove_2> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds15_2_0> rdf:type qb:Observation ;
+	rdf:value 0.368 ;
+	qb:observation <ds15> ;
+	qb:dimension <AllSizeBands_4> ;
+	qb:dimension <CoronavirusJobRetentionScheme_2> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds15_2_1> rdf:type qb:Observation ;
+	rdf:value 0.091 ;
+	qb:observation <ds15> ;
+	qb:dimension <AllSizeBands_4> ;
+	qb:dimension <Businessratesholiday_2> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds15_2_2> rdf:type qb:Observation ;
+	rdf:value 0.19 ;
+	qb:observation <ds15> ;
+	qb:dimension <AllSizeBands_4> ;
+	qb:dimension <DeferringVATpayments_2> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds15_2_3> rdf:type qb:Observation ;
+	rdf:value 0.088 ;
+	qb:observation <ds15> ;
+	qb:dimension <AllSizeBands_4> ;
+	qb:dimension <HMRCTimeToPayscheme_2> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds15_2_4> rdf:type qb:Observation ;
+	rdf:value 0.039 ;
+	qb:observation <ds15> ;
+	qb:dimension <AllSizeBands_4> ;
+	qb:dimension <GovernmentBetweenfundedsmallbusinessgrantorloanschemes_2> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds15_2_5> rdf:type qb:Observation ;
+	rdf:value 0.08 ;
+	qb:observation <ds15> ;
+	qb:dimension <AllSizeBands_4> ;
+	qb:dimension <Accreditedfinanceagreements_2> ;
+	qb:dimension <TP06to19April2020_1> .
+
+<ds15_2_6> rdf:type qb:Observation ;
+	rdf:value 0.482 ;
+	qb:observation <ds15> ;
+	qb:dimension <AllSizeBands_4> ;
+	qb:dimension <Noneoftheabove_2> ;
+	qb:dimension <TP06to19April2020_1> .
+
